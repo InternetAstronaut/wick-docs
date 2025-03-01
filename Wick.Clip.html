@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="utf-8">
-    <title>JSDoc: Class: Clip</title>
-
-    <script src="scripts/prettify/prettify.js"> </script>
-    <script src="scripts/prettify/lang-css.js"> </script>
+    <title>Clip - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
-    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
 
-<div id="main">
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
 
-    <h1 class="page-title">Class: Clip</h1>
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="BuiltinAssets.html">BuiltinAssets</a></li><li><a href="GlobalAPI.html">GlobalAPI</a><ul class='methods'><li data-type='method'><a href="GlobalAPI.html#gotoAndPlay">gotoAndPlay</a></li><li data-type='method'><a href="GlobalAPI.html#gotoAndStop">gotoAndStop</a></li><li data-type='method'><a href="GlobalAPI.html#gotoNextFrame">gotoNextFrame</a></li><li data-type='method'><a href="GlobalAPI.html#gotoPrevFrame">gotoPrevFrame</a></li><li data-type='method'><a href="GlobalAPI.html#hideCursor">hideCursor</a></li><li data-type='method'><a href="GlobalAPI.html#isKeyDown">isKeyDown</a></li><li data-type='method'><a href="GlobalAPI.html#isKeyJustPressed">isKeyJustPressed</a></li><li data-type='method'><a href="GlobalAPI.html#isMouseDown">isMouseDown</a></li><li data-type='method'><a href="GlobalAPI.html#keyIsDown">keyIsDown</a></li><li data-type='method'><a href="GlobalAPI.html#keyIsJustPressed">keyIsJustPressed</a></li><li data-type='method'><a href="GlobalAPI.html#onEvent">onEvent</a></li><li data-type='method'><a href="GlobalAPI.html#play">play</a></li><li data-type='method'><a href="GlobalAPI.html#playSound">playSound</a></li><li data-type='method'><a href="GlobalAPI.html#showCursor">showCursor</a></li><li data-type='method'><a href="GlobalAPI.html#stop">stop</a></li><li data-type='method'><a href="GlobalAPI.html#stopAllSounds">stopAllSounds</a></li><li data-type='method'><a href="GlobalAPI.html#stopSound">stopSound</a></li></ul></li><li><a href="paper.SelectionGUI.html">SelectionGUI</a><ul class='methods'><li data-type='method'><a href="paper.SelectionGUI.html#destroy">destroy</a></li><li data-type='method'><a href="paper.SelectionGUI.html#moveHandleAndRotate">moveHandleAndRotate</a></li><li data-type='method'><a href="paper.SelectionGUI.html#moveHandleAndScale">moveHandleAndScale</a></li></ul></li><li><a href="paper-paper.Selection.html">Selection</a></li><li><a href="SelectionWidget.html">SelectionWidget</a><ul class='methods'><li data-type='method'><a href="SelectionWidget.html#build">build</a></li><li data-type='method'><a href="SelectionWidget.html#finishTransformation">finishTransformation</a></li><li data-type='method'><a href="SelectionWidget.html#flipHorizontally">flipHorizontally</a></li><li data-type='method'><a href="SelectionWidget.html#flipVertically">flipVertically</a></li><li data-type='method'><a href="SelectionWidget.html#rotateSelection">rotateSelection</a></li><li data-type='method'><a href="SelectionWidget.html#scaleSelection">scaleSelection</a></li><li data-type='method'><a href="SelectionWidget.html#startTransformation">startTransformation</a></li><li data-type='method'><a href="SelectionWidget.html#transformSelection">transformSelection</a></li><li data-type='method'><a href="SelectionWidget.html#translateSelection">translateSelection</a></li><li data-type='method'><a href="SelectionWidget.html#updateTransformation">updateTransformation</a></li></ul></li><li><a href="Wick.AutoSave.html">AutoSave</a><ul class='methods'><li data-type='method'><a href="Wick.AutoSave.html#.addAutosaveToList">addAutosaveToList</a></li><li data-type='method'><a href="Wick.AutoSave.html#.delete">delete</a></li><li data-type='method'><a href="Wick.AutoSave.html#.deleteAutosaveData">deleteAutosaveData</a></li><li data-type='method'><a href="Wick.AutoSave.html#.generateAutosaveData">generateAutosaveData</a></li><li data-type='method'><a href="Wick.AutoSave.html#.generateProjectFromAutosaveData">generateProjectFromAutosaveData</a></li><li data-type='method'><a href="Wick.AutoSave.html#.getAutosavesList">getAutosavesList</a></li><li data-type='method'><a href="Wick.AutoSave.html#.load">load</a></li><li data-type='method'><a href="Wick.AutoSave.html#.readAutosaveData">readAutosaveData</a></li><li data-type='method'><a href="Wick.AutoSave.html#.removeAutosaveFromList">removeAutosaveFromList</a></li><li data-type='method'><a href="Wick.AutoSave.html#.save">save</a></li><li data-type='method'><a href="Wick.AutoSave.html#.updateAutosavesList">updateAutosavesList</a></li><li data-type='method'><a href="Wick.AutoSave.html#.writeAutosaveData">writeAutosaveData</a></li></ul></li><li><a href="Wick.Base.html">Base</a><ul class='methods'><li data-type='method'><a href="Wick.Base.html#.fromData">fromData</a></li><li data-type='method'><a href="Wick.Base.html#.import">import</a></li><li data-type='method'><a href="Wick.Base.html#addChild">addChild</a></li><li data-type='method'><a href="Wick.Base.html#copy">copy</a></li><li data-type='method'><a href="Wick.Base.html#deserialize">deserialize</a></li><li data-type='method'><a href="Wick.Base.html#export">export</a></li><li data-type='method'><a href="Wick.Base.html#getChild">getChild</a></li><li data-type='method'><a href="Wick.Base.html#getChildren">getChildren</a></li><li data-type='method'><a href="Wick.Base.html#getChildrenRecursive">getChildrenRecursive</a></li><li data-type='method'><a href="Wick.Base.html#getLinkedAssets">getLinkedAssets</a></li><li data-type='method'><a href="Wick.Base.html#insertChild">insertChild</a></li><li data-type='method'><a href="Wick.Base.html#removeChild">removeChild</a></li><li data-type='method'><a href="Wick.Base.html#serialize">serialize</a></li></ul></li><li><a href="Wick.Button.html">Button</a></li><li><a href="Wick.Clip.html">Clip</a><ul class='methods'><li data-type='method'><a href="Wick.Clip.html#addObjects">addObjects</a></li><li data-type='method'><a href="Wick.Clip.html#applySingleFramePosition">applySingleFramePosition</a></li><li data-type='method'><a href="Wick.Clip.html#applySyncPosition">applySyncPosition</a></li><li data-type='method'><a href="Wick.Clip.html#breakApart">breakApart</a></li><li data-type='method'><a href="Wick.Clip.html#circleHits">circleHits</a></li><li data-type='method'><a href="Wick.Clip.html#clone">clone</a></li><li data-type='method'><a href="Wick.Clip.html#convexHits">convexHits</a></li><li data-type='method'><a href="Wick.Clip.html#ensureActiveFrameIsContentful">ensureActiveFrameIsContentful</a></li><li data-type='method'><a href="Wick.Clip.html#gotoAndPlay">gotoAndPlay</a></li><li data-type='method'><a href="Wick.Clip.html#gotoAndStop">gotoAndStop</a></li><li data-type='method'><a href="Wick.Clip.html#gotoNextFrame">gotoNextFrame</a></li><li data-type='method'><a href="Wick.Clip.html#gotoPrevFrame">gotoPrevFrame</a></li><li data-type='method'><a href="Wick.Clip.html#hits">hits</a></li><li data-type='method'><a href="Wick.Clip.html#hitTest">hitTest</a></li><li data-type='method'><a href="Wick.Clip.html#play">play</a></li><li data-type='method'><a href="Wick.Clip.html#radiusAtPointInDirection">radiusAtPointInDirection</a></li><li data-type='method'><a href="Wick.Clip.html#rectangleHits">rectangleHits</a></li><li data-type='method'><a href="Wick.Clip.html#remove">remove</a></li><li data-type='method'><a href="Wick.Clip.html#removeClone">removeClone</a></li><li data-type='method'><a href="Wick.Clip.html#resetTimelinePosition">resetTimelinePosition</a></li><li data-type='method'><a href="Wick.Clip.html#setText">setText</a></li><li data-type='method'><a href="Wick.Clip.html#stop">stop</a></li><li data-type='method'><a href="Wick.Clip.html#updateTimelineForAnimationType">updateTimelineForAnimationType</a></li></ul></li><li><a href="Wick.Clipboard.html">Clipboard</a><ul class='methods'><li data-type='method'><a href="Wick.Clipboard.html#copyObjectsToClipboard">copyObjectsToClipboard</a></li><li data-type='method'><a href="Wick.Clipboard.html#pasteObjectsFromClipboard">pasteObjectsFromClipboard</a></li></ul></li><li><a href="Wick.FileCache.html">FileCache</a><ul class='methods'><li data-type='method'><a href="Wick.FileCache.html#.addFile">addFile</a></li><li data-type='method'><a href="Wick.FileCache.html#.clear">clear</a></li><li data-type='method'><a href="Wick.FileCache.html#.getAllFiles">getAllFiles</a></li><li data-type='method'><a href="Wick.FileCache.html#.getFile">getFile</a></li><li data-type='method'><a href="Wick.FileCache.html#.loadFilesFromLocalforage">loadFilesFromLocalforage</a></li><li data-type='method'><a href="Wick.FileCache.html#.removeFile">removeFile</a></li></ul></li><li><a href="Wick.Frame.html">Frame</a><ul class='methods'><li data-type='method'><a href="Wick.Frame.html#addClip">addClip</a></li><li data-type='method'><a href="Wick.Frame.html#addPath">addPath</a></li><li data-type='method'><a href="Wick.Frame.html#addTween">addTween</a></li><li data-type='method'><a href="Wick.Frame.html#applyClipSingleFramePositions">applyClipSingleFramePositions</a></li><li data-type='method'><a href="Wick.Frame.html#applyTweenTransforms">applyTweenTransforms</a></li><li data-type='method'><a href="Wick.Frame.html#containedWithin">containedWithin</a></li><li data-type='method'><a href="Wick.Frame.html#createTween">createTween</a></li><li data-type='method'><a href="Wick.Frame.html#cut">cut</a></li><li data-type='method'><a href="Wick.Frame.html#distanceFrom">distanceFrom</a></li><li data-type='method'><a href="Wick.Frame.html#extendAndPushOtherFrames">extendAndPushOtherFrames</a></li><li data-type='method'><a href="Wick.Frame.html#getActiveTween">getActiveTween</a></li><li data-type='method'><a href="Wick.Frame.html#getLinkedAssets">getLinkedAssets</a></li><li data-type='method'><a href="Wick.Frame.html#getRelativePlayheadPosition">getRelativePlayheadPosition</a></li><li data-type='method'><a href="Wick.Frame.html#getTweenAtCurrentPlayheadPosition">getTweenAtCurrentPlayheadPosition</a></li><li data-type='method'><a href="Wick.Frame.html#getTweenAtPosition">getTweenAtPosition</a></li><li data-type='method'><a href="Wick.Frame.html#inPosition">inPosition</a></li><li data-type='method'><a href="Wick.Frame.html#inRange">inRange</a></li><li data-type='method'><a href="Wick.Frame.html#isSoundPlaying">isSoundPlaying</a></li><li data-type='method'><a href="Wick.Frame.html#playSound">playSound</a></li><li data-type='method'><a href="Wick.Frame.html#remove">remove</a></li><li data-type='method'><a href="Wick.Frame.html#removeAllTweens">removeAllTweens</a></li><li data-type='method'><a href="Wick.Frame.html#removeClip">removeClip</a></li><li data-type='method'><a href="Wick.Frame.html#removePath">removePath</a></li><li data-type='method'><a href="Wick.Frame.html#removeSound">removeSound</a></li><li data-type='method'><a href="Wick.Frame.html#removeTween">removeTween</a></li><li data-type='method'><a href="Wick.Frame.html#seekTweenBehind">seekTweenBehind</a></li><li data-type='method'><a href="Wick.Frame.html#seekTweenInFront">seekTweenInFront</a></li><li data-type='method'><a href="Wick.Frame.html#shrinkAndPullOtherFrames">shrinkAndPullOtherFrames</a></li><li data-type='method'><a href="Wick.Frame.html#stopSound">stopSound</a></li><li data-type='method'><a href="Wick.Frame.html#updateClipTimelinesForAnimationType">updateClipTimelinesForAnimationType</a></li></ul></li><li><a href="Wick.GUIElement.Project.html">Project</a><ul class='methods'><li data-type='method'><a href="Wick.GUIElement.Project.html#_onMouseWheel">_onMouseWheel</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#checkForPlayheadAutoscroll">checkForPlayheadAutoscroll</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#closePopupMenu">closePopupMenu</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#createCanvasEvent">createCanvasEvent</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#createDocumentEvent">createDocumentEvent</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#dragAssetAtPosition">dragAssetAtPosition</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#draw">draw</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#markElementAsDrawn">markElementAsDrawn</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#onProjectModified">onProjectModified</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#onProjectSoftModified">onProjectSoftModified</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#openPopupMenu">openPopupMenu</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#removeAllEventListeners">removeAllEventListeners</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#resize">resize</a></li></ul></li><li><a href="Wick.GUIElement.Timeline.html">Timeline</a><ul class='methods'><li data-type='method'><a href="Wick.GUIElement.Timeline.html#draw">draw</a></li></ul></li><li><a href="Wick.GUIElement-Wick.GUIElement.Breadcrumbs.html">Breadcrumbs</a></li><li><a href="Wick.GUIElement-Wick.GUIElement.Button.html">Button</a></li><li><a href="Wick.History.html">History</a><ul class='methods'><li data-type='method'><a href="Wick.History.html#getObjectUUIDs">getObjectUUIDs</a></li><li data-type='method'><a href="Wick.History.html#loadSnapshot">loadSnapshot</a></li><li data-type='method'><a href="Wick.History.html#popState">popState</a></li><li data-type='method'><a href="Wick.History.html#pushState">pushState</a></li><li data-type='method'><a href="Wick.History.html#recoverState">recoverState</a></li><li data-type='method'><a href="Wick.History.html#reset">reset</a></li><li data-type='method'><a href="Wick.History.html#saveSnapshot">saveSnapshot</a></li></ul></li><li><a href="Wick.HTMLExport.html">HTMLExport</a><ul class='methods'><li data-type='method'><a href="Wick.HTMLExport.html#.bundleProject">bundleProject</a></li></ul></li><li><a href="Wick.HTMLPreview.html">HTMLPreview</a><ul class='methods'><li data-type='method'><a href="Wick.HTMLPreview.html#.previewProject">previewProject</a></li></ul></li><li><a href="Wick.ImageSequence.html">ImageSequence</a><ul class='methods'><li data-type='method'><a href="Wick.ImageSequence.html#.toPNGSequence">toPNGSequence</a></li></ul></li><li><a href="Wick.Layer.html">Layer</a><ul class='methods'><li data-type='method'><a href="Wick.Layer.html#activate">activate</a></li><li data-type='method'><a href="Wick.Layer.html#addFrame">addFrame</a></li><li data-type='method'><a href="Wick.Layer.html#addTween">addTween</a></li><li data-type='method'><a href="Wick.Layer.html#findGaps">findGaps</a></li><li data-type='method'><a href="Wick.Layer.html#getFrameAtPlayheadPosition">getFrameAtPlayheadPosition</a></li><li data-type='method'><a href="Wick.Layer.html#getFramesContainedWithin">getFramesContainedWithin</a></li><li data-type='method'><a href="Wick.Layer.html#getFramesInRange">getFramesInRange</a></li><li data-type='method'><a href="Wick.Layer.html#insertBlankFrame">insertBlankFrame</a></li><li data-type='method'><a href="Wick.Layer.html#move">move</a></li><li data-type='method'><a href="Wick.Layer.html#remove">remove</a></li><li data-type='method'><a href="Wick.Layer.html#removeFrame">removeFrame</a></li><li data-type='method'><a href="Wick.Layer.html#resolveGaps">resolveGaps</a></li><li data-type='method'><a href="Wick.Layer.html#resolveOverlap">resolveOverlap</a></li></ul></li><li><a href="Wick.Path.html">Path</a><ul class='methods'><li data-type='method'><a href="Wick.Path.html#.booleanOp">booleanOp</a></li><li data-type='method'><a href="Wick.Path.html#.createImagePath">createImagePath</a></li><li data-type='method'><a href="Wick.Path.html#.createImagePathSync">createImagePathSync</a></li><li data-type='method'><a href="Wick.Path.html#.intersect">intersect</a></li><li data-type='method'><a href="Wick.Path.html#.subtract">subtract</a></li><li data-type='method'><a href="Wick.Path.html#.unite">unite</a></li><li data-type='method'><a href="Wick.Path.html#flatten">flatten</a></li><li data-type='method'><a href="Wick.Path.html#getLinkedAssets">getLinkedAssets</a></li><li data-type='method'><a href="Wick.Path.html#remove">remove</a></li><li data-type='method'><a href="Wick.Path.html#setText">setText</a></li><li data-type='method'><a href="Wick.Path.html#updateJSON">updateJSON</a></li></ul></li><li><a href="Wick.Project.html">Project</a><ul class='methods'><li data-type='method'><a href="Wick.Project.html#addAsset">addAsset</a></li><li data-type='method'><a href="Wick.Project.html#addObject">addObject</a></li><li data-type='method'><a href="Wick.Project.html#breakApartSelection">breakApartSelection</a></li><li data-type='method'><a href="Wick.Project.html#cleanupUnusedAssets">cleanupUnusedAssets</a></li><li data-type='method'><a href="Wick.Project.html#copySelectionToClipboard">copySelectionToClipboard</a></li><li data-type='method'><a href="Wick.Project.html#createClipFromLayers">createClipFromLayers</a></li><li data-type='method'><a href="Wick.Project.html#createClipFromSelection">createClipFromSelection</a></li><li data-type='method'><a href="Wick.Project.html#createClipInstanceFromAsset">createClipInstanceFromAsset</a></li><li data-type='method'><a href="Wick.Project.html#createImagePathFromAsset">createImagePathFromAsset</a></li><li data-type='method'><a href="Wick.Project.html#createSVGInstanceFromAsset">createSVGInstanceFromAsset</a></li><li data-type='method'><a href="Wick.Project.html#createTween">createTween</a></li><li data-type='method'><a href="Wick.Project.html#cutSelectedFrames">cutSelectedFrames</a></li><li data-type='method'><a href="Wick.Project.html#cutSelectionToClipboard">cutSelectionToClipboard</a></li><li data-type='method'><a href="Wick.Project.html#deleteSelectedObjects">deleteSelectedObjects</a></li><li data-type='method'><a href="Wick.Project.html#destroy">destroy</a></li><li data-type='method'><a href="Wick.Project.html#distributeSelectionToLayers">distributeSelectionToLayers</a></li><li data-type='method'><a href="Wick.Project.html#doBooleanOperationOnSelection">doBooleanOperationOnSelection</a></li><li data-type='method'><a href="Wick.Project.html#duplicateSelection">duplicateSelection</a></li><li data-type='method'><a href="Wick.Project.html#errorOccured">errorOccured</a></li><li data-type='method'><a href="Wick.Project.html#extendFrames">extendFrames</a></li><li data-type='method'><a href="Wick.Project.html#extendFramesAndPushOtherFrames">extendFramesAndPushOtherFrames</a></li><li data-type='method'><a href="Wick.Project.html#focusTimelineOfParentClip">focusTimelineOfParentClip</a></li><li data-type='method'><a href="Wick.Project.html#focusTimelineOfSelectedClip">focusTimelineOfSelectedClip</a></li><li data-type='method'><a href="Wick.Project.html#generateAudioSequence">generateAudioSequence</a></li><li data-type='method'><a href="Wick.Project.html#generateAudioTrack">generateAudioTrack</a></li><li data-type='method'><a href="Wick.Project.html#generateImageSequence">generateImageSequence</a></li><li data-type='method'><a href="Wick.Project.html#generateSoundInfo">generateSoundInfo</a></li><li data-type='method'><a href="Wick.Project.html#getAllFrames">getAllFrames</a></li><li data-type='method'><a href="Wick.Project.html#getAllOnionSkinnedFrames">getAllOnionSkinnedFrames</a></li><li data-type='method'><a href="Wick.Project.html#getAssetByName">getAssetByName</a></li><li data-type='method'><a href="Wick.Project.html#getAssetByUUID">getAssetByUUID</a></li><li data-type='method'><a href="Wick.Project.html#getAssets">getAssets</a></li><li data-type='method'><a href="Wick.Project.html#getAudioInfo">getAudioInfo</a></li><li data-type='method'><a href="Wick.Project.html#getFonts">getFonts</a></li><li data-type='method'><a href="Wick.Project.html#getObjectByUUID">getObjectByUUID</a></li><li data-type='method'><a href="Wick.Project.html#hasFont">hasFont</a></li><li data-type='method'><a href="Wick.Project.html#importFile">importFile</a></li><li data-type='method'><a href="Wick.Project.html#initialize">initialize</a></li><li data-type='method'><a href="Wick.Project.html#inject">inject</a></li><li data-type='method'><a href="Wick.Project.html#insertBlankFrame">insertBlankFrame</a></li><li data-type='method'><a href="Wick.Project.html#isKeyDown">isKeyDown</a></li><li data-type='method'><a href="Wick.Project.html#isKeyJustPressed">isKeyJustPressed</a></li><li data-type='method'><a href="Wick.Project.html#loadAssets">loadAssets</a></li><li data-type='method'><a href="Wick.Project.html#moveSelectedFramesLeft">moveSelectedFramesLeft</a></li><li data-type='method'><a href="Wick.Project.html#moveSelectedFramesRight">moveSelectedFramesRight</a></li><li data-type='method'><a href="Wick.Project.html#moveSelection">moveSelection</a></li><li data-type='method'><a href="Wick.Project.html#mute">mute</a></li><li data-type='method'><a href="Wick.Project.html#objectIsMouseTarget">objectIsMouseTarget</a></li><li data-type='method'><a href="Wick.Project.html#onError">onError</a></li><li data-type='method'><a href="Wick.Project.html#pasteClipboardContents">pasteClipboardContents</a></li><li data-type='method'><a href="Wick.Project.html#play">play</a></li><li data-type='method'><a href="Wick.Project.html#playSound">playSound</a></li><li data-type='method'><a href="Wick.Project.html#playSoundFromAsset">playSoundFromAsset</a></li><li data-type='method'><a href="Wick.Project.html#prepareProjectForEditor">prepareProjectForEditor</a></li><li data-type='method'><a href="Wick.Project.html#recenter">recenter</a></li><li data-type='method'><a href="Wick.Project.html#redo">redo</a></li><li data-type='method'><a href="Wick.Project.html#removeAsset">removeAsset</a></li><li data-type='method'><a href="Wick.Project.html#resetCache">resetCache</a></li><li data-type='method'><a href="Wick.Project.html#resetTools">resetTools</a></li><li data-type='method'><a href="Wick.Project.html#resetZoomAndPan">resetZoomAndPan</a></li><li data-type='method'><a href="Wick.Project.html#runScheduledScripts">runScheduledScripts</a></li><li data-type='method'><a href="Wick.Project.html#scheduleScript">scheduleScript</a></li><li data-type='method'><a href="Wick.Project.html#selectAll">selectAll</a></li><li data-type='method'><a href="Wick.Project.html#shrinkFrames">shrinkFrames</a></li><li data-type='method'><a href="Wick.Project.html#shrinkFramesAndPullOtherFrames">shrinkFramesAndPullOtherFrames</a></li><li data-type='method'><a href="Wick.Project.html#stop">stop</a></li><li data-type='method'><a href="Wick.Project.html#stopAllSounds">stopAllSounds</a></li><li data-type='method'><a href="Wick.Project.html#stopSound">stopSound</a></li><li data-type='method'><a href="Wick.Project.html#tick">tick</a></li><li data-type='method'><a href="Wick.Project.html#tryToAutoCreateTween">tryToAutoCreateTween</a></li><li data-type='method'><a href="Wick.Project.html#undo">undo</a></li><li data-type='method'><a href="Wick.Project.html#unmute">unmute</a></li><li data-type='method'><a href="Wick.Project.html#zoomIn">zoomIn</a></li><li data-type='method'><a href="Wick.Project.html#zoomOut">zoomOut</a></li></ul></li><li><a href="Wick.Selection.html">Selection</a><ul class='methods'><li data-type='method'><a href="Wick.Selection.html#bringToFront">bringToFront</a></li><li data-type='method'><a href="Wick.Selection.html#clear">clear</a></li><li data-type='method'><a href="Wick.Selection.html#deselect">deselect</a></li><li data-type='method'><a href="Wick.Selection.html#deselectMultipleObjects">deselectMultipleObjects</a></li><li data-type='method'><a href="Wick.Selection.html#flipHorizontally">flipHorizontally</a></li><li data-type='method'><a href="Wick.Selection.html#flipVertically">flipVertically</a></li><li data-type='method'><a href="Wick.Selection.html#getLeftmostFrames">getLeftmostFrames</a></li><li data-type='method'><a href="Wick.Selection.html#getRightmostFrames">getRightmostFrames</a></li><li data-type='method'><a href="Wick.Selection.html#getSelectedObject">getSelectedObject</a></li><li data-type='method'><a href="Wick.Selection.html#getSelectedObjects">getSelectedObjects</a></li><li data-type='method'><a href="Wick.Selection.html#getSelectedObjectUUIDs">getSelectedObjectUUIDs</a></li><li data-type='method'><a href="Wick.Selection.html#isObjectSelected">isObjectSelected</a></li><li data-type='method'><a href="Wick.Selection.html#isSelectable">isSelectable</a></li><li data-type='method'><a href="Wick.Selection.html#moveBackwards">moveBackwards</a></li><li data-type='method'><a href="Wick.Selection.html#moveForwards">moveForwards</a></li><li data-type='method'><a href="Wick.Selection.html#select">select</a></li><li data-type='method'><a href="Wick.Selection.html#selectMultipleObjects">selectMultipleObjects</a></li><li data-type='method'><a href="Wick.Selection.html#sendToBack">sendToBack</a></li></ul></li><li><a href="Wick.SVGFile.html">SVGFile</a><ul class='methods'><li data-type='method'><a href="Wick.SVGFile.html#.fromSVGFile">fromSVGFile</a></li><li data-type='method'><a href="Wick.SVGFile.html#.toSVGFile">toSVGFile</a></li></ul></li><li><a href="Wick.Tickable.html">Tickable</a><ul class='methods'><li data-type='method'><a href="Wick.Tickable.html#_runFunction">_runFunction</a></li><li data-type='method'><a href="Wick.Tickable.html#addEventFn">addEventFn</a></li><li data-type='method'><a href="Wick.Tickable.html#addScript">addScript</a></li><li data-type='method'><a href="Wick.Tickable.html#getAvailableScripts">getAvailableScripts</a></li><li data-type='method'><a href="Wick.Tickable.html#getEventFns">getEventFns</a></li><li data-type='method'><a href="Wick.Tickable.html#getScript">getScript</a></li><li data-type='method'><a href="Wick.Tickable.html#hasScript">hasScript</a></li><li data-type='method'><a href="Wick.Tickable.html#onEvent">onEvent</a></li><li data-type='method'><a href="Wick.Tickable.html#removeScript">removeScript</a></li><li data-type='method'><a href="Wick.Tickable.html#runScript">runScript</a></li><li data-type='method'><a href="Wick.Tickable.html#scheduleScript">scheduleScript</a></li><li data-type='method'><a href="Wick.Tickable.html#scriptIsContentful">scriptIsContentful</a></li><li data-type='method'><a href="Wick.Tickable.html#tick">tick</a></li><li data-type='method'><a href="Wick.Tickable.html#updateScript">updateScript</a></li></ul></li><li><a href="Wick.Timeline.html">Timeline</a><ul class='methods'><li data-type='method'><a href="Wick.Timeline.html#addFrame">addFrame</a></li><li data-type='method'><a href="Wick.Timeline.html#addLayer">addLayer</a></li><li data-type='method'><a href="Wick.Timeline.html#addTween">addTween</a></li><li data-type='method'><a href="Wick.Timeline.html#advance">advance</a></li><li data-type='method'><a href="Wick.Timeline.html#deferFrameGapResolve">deferFrameGapResolve</a></li><li data-type='method'><a href="Wick.Timeline.html#forceFrame">forceFrame</a></li><li data-type='method'><a href="Wick.Timeline.html#getAllFrames">getAllFrames</a></li><li data-type='method'><a href="Wick.Timeline.html#getFrameByName">getFrameByName</a></li><li data-type='method'><a href="Wick.Timeline.html#getFramesAtPlayheadPosition">getFramesAtPlayheadPosition</a></li><li data-type='method'><a href="Wick.Timeline.html#getFramesInRange">getFramesInRange</a></li><li data-type='method'><a href="Wick.Timeline.html#gotoAndPlay">gotoAndPlay</a></li><li data-type='method'><a href="Wick.Timeline.html#gotoAndStop">gotoAndStop</a></li><li data-type='method'><a href="Wick.Timeline.html#gotoFrame">gotoFrame</a></li><li data-type='method'><a href="Wick.Timeline.html#gotoNextFrame">gotoNextFrame</a></li><li data-type='method'><a href="Wick.Timeline.html#gotoPrevFrame">gotoPrevFrame</a></li><li data-type='method'><a href="Wick.Timeline.html#makeTimelineInBounds">makeTimelineInBounds</a></li><li data-type='method'><a href="Wick.Timeline.html#moveLayer">moveLayer</a></li><li data-type='method'><a href="Wick.Timeline.html#play">play</a></li><li data-type='method'><a href="Wick.Timeline.html#removeLayer">removeLayer</a></li><li data-type='method'><a href="Wick.Timeline.html#resolveFrameGaps">resolveFrameGaps</a></li><li data-type='method'><a href="Wick.Timeline.html#resolveFrameOverlap">resolveFrameOverlap</a></li><li data-type='method'><a href="Wick.Timeline.html#stop">stop</a></li></ul></li><li><a href="Wick.Tools-Wick.Tools.Brush.html">Brush</a></li><li><a href="Wick.Tools-Wick.Tools.Cursor.html">Cursor</a></li><li><a href="Wick.Tools-Wick.Tools.Ellipse.html">Ellipse</a></li><li><a href="Wick.Tools-Wick.Tools.Eraser.html">Eraser</a></li><li><a href="Wick.Tools-Wick.Tools.Eyedropper.html">Eyedropper</a></li><li><a href="Wick.Tools-Wick.Tools.FillBucket.html">FillBucket</a></li><li><a href="Wick.Tools-Wick.Tools.Interact.html">Interact</a></li><li><a href="Wick.Tools-Wick.Tools.Line.html">Line</a></li><li><a href="Wick.Tools-Wick.Tools.None.html">None</a></li><li><a href="Wick.Tools-Wick.Tools.Pan.html">Pan</a></li><li><a href="Wick.Tools-Wick.Tools.Pencil.html">Pencil</a></li><li><a href="Wick.Tools-Wick.Tools.Rectangle.html">Rectangle</a></li><li><a href="Wick.Tools-Wick.Tools.Text.html">Text</a></li><li><a href="Wick.Tools-Wick.Tools.Zoom.html">Zoom</a></li><li><a href="Wick.Transformation.html">Transformation</a><ul class='methods'><li data-type='method'><a href="Wick.Transformation.html#copy">copy</a></li></ul></li><li><a href="Wick.Tween.html">Tween</a><ul class='methods'><li data-type='method'><a href="Wick.Tween.html#.interpolate">interpolate</a></li><li data-type='method'><a href="Wick.Tween.html#applyTransformsToClip">applyTransformsToClip</a></li><li data-type='method'><a href="Wick.Tween.html#getNextTween">getNextTween</a></li><li data-type='method'><a href="Wick.Tween.html#remove">remove</a></li><li data-type='method'><a href="Wick.Tween.html#restrictToFrameSize">restrictToFrameSize</a></li></ul></li><li><a href="Wick.View-Wick.View.Clip.html">Clip</a></li><li><a href="Wick.View-Wick.View.Frame.html">Frame</a></li><li><a href="Wick.View-Wick.View.Path.html">Path</a></li><li><a href="Wick.View-Wick.View.Selection.html">Selection</a></li><li><a href="Wick.WickFile.html">WickFile</a><ul class='methods'><li data-type='method'><a href="Wick.WickFile.html#.fromWickFile">fromWickFile</a></li><li data-type='method'><a href="Wick.WickFile.html#.generateMetaData">generateMetaData</a></li><li data-type='method'><a href="Wick.WickFile.html#.toWickFile">toWickFile</a></li></ul></li><li><a href="Wick.WickObjectFile.html">WickObjectFile</a><ul class='methods'><li data-type='method'><a href="Wick.WickObjectFile.html#.fromWickObjectFile">fromWickObjectFile</a></li><li data-type='method'><a href="Wick.WickObjectFile.html#.toWickObjectFile">toWickObjectFile</a></li></ul></li><li><a href="Wick.ZIPExport.html">ZIPExport</a></li><li><a href="WickObjectCache.html">WickObjectCache</a><ul class='methods'><li data-type='method'><a href="WickObjectCache.html#addObject">addObject</a></li><li data-type='method'><a href="WickObjectCache.html#clear">clear</a></li><li data-type='method'><a href="WickObjectCache.html#clearObjectToBeAutosaved">clearObjectToBeAutosaved</a></li><li data-type='method'><a href="WickObjectCache.html#getActiveObjects">getActiveObjects</a></li><li data-type='method'><a href="WickObjectCache.html#getAllObjects">getAllObjects</a></li><li data-type='method'><a href="WickObjectCache.html#getObjectByUUID">getObjectByUUID</a></li><li data-type='method'><a href="WickObjectCache.html#getObjectsNeedAutosaved">getObjectsNeedAutosaved</a></li><li data-type='method'><a href="WickObjectCache.html#markObjectToBeAutosaved">markObjectToBeAutosaved</a></li><li data-type='method'><a href="WickObjectCache.html#objectNeedsAutosave">objectNeedsAutosave</a></li><li data-type='method'><a href="WickObjectCache.html#removeObject">removeObject</a></li><li data-type='method'><a href="WickObjectCache.html#removeObjectByUUID">removeObjectByUUID</a></li><li data-type='method'><a href="WickObjectCache.html#removeTemporaryObjects">removeTemporaryObjects</a></li><li data-type='method'><a href="WickObjectCache.html#removeUnusedObjects">removeUnusedObjects</a></li></ul></li><li><a href="Wick-Wick.Asset.html">Asset</a></li><li><a href="Wick-Wick.AudioTrack.html">AudioTrack</a></li><li><a href="Wick-Wick.ClipAsset.html">ClipAsset</a></li><li><a href="Wick-Wick.Color.html">Color</a></li><li><a href="Wick-Wick.FileAsset.html">FileAsset</a></li><li><a href="Wick-Wick.FontAsset.html">FontAsset</a></li><li><a href="Wick-Wick.GIFAsset.html">GIFAsset</a></li><li><a href="Wick-Wick.GUIElement.html">GUIElement</a></li><li><a href="Wick-Wick.ImageAsset.html">ImageAsset</a></li><li><a href="Wick-Wick.SoundAsset.html">SoundAsset</a></li><li><a href="Wick-Wick.SVGAsset.html">SVGAsset</a></li><li><a href="Wick-Wick.Tool.html">Tool</a></li><li><a href="Wick-Wick.ToolSettings.html">ToolSettings</a></li><li><a href="Wick-Wick.View.html">View</a></li></ul><h3>Global</h3><ul><li><a href="global.html#type">type</a></li><li><a href="global.html#Wick">Wick</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">Clip</h1>
+    
 
     
 
@@ -28,34 +47,79 @@
 
 <header>
     
-        <h2><span class="attribs"><span class="type-signature"></span></span>
-            <span class="ancestors"><a href="global.html#Wick">Wick</a>.</span>Clip<span class="signature">(identifier, objects, transformation)</span><span class="type-signature"></span></h2>
+        <h2>
+            <span class="ancestors"><a href="global.html#Wick">Wick</a>.</span>
         
-            <div class="class-description">A class representing a Wick Clip.</div>
+        
+            Clip
+        
+        </h2>
+        
+            <div class="class-description usertext"><p>A class representing a Wick Clip.</p></div>
         
     
 </header>
 
 <article>
-    <div class="container-overview">
     
+        <div class="container-overview">
         
+            
 
     
     <h2>Constructor</h2>
     
 
-    
     <h4 class="name" id="Clip"><span class="type-signature"></span>new Clip<span class="signature">(identifier, objects, transformation)</span><span class="type-signature"></span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Create a new clip.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Create a new clip.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line24">line 24</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -65,7 +129,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -99,6 +167,7 @@
 <span class="param-type">string</span>
 
 
+
             
             </td>
 
@@ -106,7 +175,7 @@
 
             
 
-            <td class="description last">The identifier of the new clip.</td>
+            <td class="description last"><p>The identifier of the new clip.</p></td>
         </tr>
 
     
@@ -125,6 +194,7 @@
 <span class="param-type">Array.&lt;<a href="Wick.Clip.html">Wick.Clip</a>></span>
 
 
+
             
             </td>
 
@@ -132,7 +202,7 @@
 
             
 
-            <td class="description last">Optional. A list of objects to add to the clip.</td>
+            <td class="description last"><p>Optional. A list of objects to add to the clip.</p></td>
         </tr>
 
     
@@ -148,6 +218,7 @@
 <span class="param-type"><a href="Wick.Transformation.html">Wick.Transformation</a></span>
 
 
+
             
             </td>
 
@@ -155,7 +226,7 @@
 
             
 
-            <td class="description last">Optional. The initial transformation of the clip.</td>
+            <td class="description last"><p>Optional. The initial transformation of the clip.</p></td>
         </tr>
 
     
@@ -167,8 +238,21 @@
 
 
 
-<dl class="details">
 
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        </div>
     
 
     
@@ -176,68 +260,10 @@
     
 
     
-
+    
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line24">line 24</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
+     
 
     
 
@@ -246,55 +272,16 @@
 
         
             
-<h4 class="name" id=".animationTypes"><span class="type-signature">(static) </span>animationTypes<span class="type-signature"> :Object</span></h4>
-
-
-
-
-<div class="description">
-    Returns a list of all possible animation types for this object.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">Object</span>
-
-
-        </li>
-    </ul>
+<h4 class="name" id=".animationTypes"><span class="type-signature type-signature-static">(static) </span>animationTypes<span class="type-signature"> :Object</span></h4>
 
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Returns a list of all possible animation types for this object.</p></li></ul></dd>
     
 
     
@@ -309,7 +296,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns a list of all possible animation types for this object.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">Object</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -323,50 +355,11 @@
 
 
 
-<div class="description">
-    The active frame of the clip's timeline.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type"><a href="Wick.Frame.html">Wick.Frame</a></span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The active frame of the clip's timeline.</p></li></ul></dd>
     
 
     
@@ -381,7 +374,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The active frame of the clip's timeline.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type"><a href="Wick.Frame.html">Wick.Frame</a></span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -395,50 +433,11 @@
 
 
 
-<div class="description">
-    The active layer of the clip's timeline.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type"><a href="Wick.Layer.html">Wick.Layer</a></span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The active layer of the clip's timeline.</p></li></ul></dd>
     
 
     
@@ -453,7 +452,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The active layer of the clip's timeline.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type"><a href="Wick.Layer.html">Wick.Layer</a></span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -467,50 +511,11 @@
 
 
 
-<div class="description">
-    An array containing every clip and frame that is a child of this clip and has an identifier, and also is visible on screen.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">Array.&lt;<a href="Wick.Base.html">Wick.Base</a>></span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>An array containing every clip and frame that is a child of this clip and has an identifier, and also is visible on screen.</p></li></ul></dd>
     
 
     
@@ -525,7 +530,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>An array containing every clip and frame that is a child of this clip and has an identifier, and also is visible on screen.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">Array.&lt;<a href="Wick.Base.html">Wick.Base</a>></span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -539,50 +589,11 @@
 
 
 
-<div class="description">
-    The animation type of the clip. Must be of a type represented within animationTypes;
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">string</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The animation type of the clip. Must be of a type represented within animationTypes;</p></li></ul></dd>
     
 
     
@@ -597,7 +608,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The animation type of the clip. Must be of a type represented within animationTypes;</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">string</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -611,50 +667,11 @@
 
 
 
-<div class="description">
-    The uuid of the ClipAsset that this clip was created from.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">string</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The uuid of the ClipAsset that this clip was created from.</p></li></ul></dd>
     
 
     
@@ -669,7 +686,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The uuid of the ClipAsset that this clip was created from.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">string</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -683,50 +745,11 @@
 
 
 
-<div class="description">
-    The bounding box of the clip.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">object</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The bounding box of the clip.</p></li></ul></dd>
     
 
     
@@ -741,7 +764,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The bounding box of the clip.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">object</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -755,50 +823,11 @@
 
 
 
-<div class="description">
-    An array containing all objects that were created by calling clone() on this Clip.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">Array.&lt;<a href="Wick.Clip.html">Wick.Clip</a>></span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>An array containing all objects that were created by calling clone() on this Clip.</p></li></ul></dd>
     
 
     
@@ -813,7 +842,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>An array containing all objects that were created by calling clone() on this Clip.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">Array.&lt;<a href="Wick.Clip.html">Wick.Clip</a>></span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -827,40 +901,11 @@
 
 
 
-<div class="description">
-    Returns the name of the frame which is currently active. If multiple frames are active, returns the name of the first active frame.
-</div>
-
-
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Returns the name of the frame which is currently active. If multiple frames are active, returns the name of the first active frame.</p></li></ul></dd>
     
 
     
@@ -875,7 +920,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns the name of the frame which is currently active. If multiple frames are active, returns the name of the first active frame.</p>
+</div>
+
+
 
 
 
@@ -890,12 +969,15 @@
 
 
 
-
-
-
-
-
 <dl class="details">
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line529">line 529</a>
+    </li></ul></dd>
+    
 
     
 
@@ -924,18 +1006,17 @@
     
 
     
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line529">line 529</a>
-    </li></ul></dd>
-    
-
-    
 
     
 
     
 </dl>
+
+
+
+
+
+
 
 
 
@@ -949,50 +1030,11 @@
 
 
 
-<div class="description">
-    The height of the clip.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The height of the clip.</p></li></ul></dd>
     
 
     
@@ -1007,7 +1049,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The height of the clip.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1021,50 +1108,11 @@
 
 
 
-<div class="description">
-    Check if a Clip is a clone of another object.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">boolean</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Check if a Clip is a clone of another object.</p></li></ul></dd>
     
 
     
@@ -1079,7 +1127,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Check if a Clip is a clone of another object.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">boolean</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1093,50 +1186,11 @@
 
 
 
-<div class="description">
-    Determines whether or not the clip is the currently focused clip in the project.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">boolean</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Determines whether or not the clip is the currently focused clip in the project.</p></li></ul></dd>
     
 
     
@@ -1151,7 +1205,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Determines whether or not the clip is the currently focused clip in the project.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">boolean</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1165,50 +1264,11 @@
 
 
 
-<div class="description">
-    Determines whether or not the clip is the root clip in the project.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">boolean</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Determines whether or not the clip is the root clip in the project.</p></li></ul></dd>
     
 
     
@@ -1223,7 +1283,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Determines whether or not the clip is the root clip in the project.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">boolean</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1237,50 +1342,11 @@
 
 
 
-<div class="description">
-    True if the clip should sync to the timeline's position.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">boolean</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>True if the clip should sync to the timeline's position.</p></li></ul></dd>
     
 
     
@@ -1295,7 +1361,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>True if the clip should sync to the timeline's position.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">boolean</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1309,40 +1420,11 @@
 
 
 
-<div class="description">
-    The list of parents, grandparents, grand-grandparents...etc of the clip.
-</div>
-
-
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The list of parents, grandparents, grand-grandparents...etc of the clip.</p></li></ul></dd>
     
 
     
@@ -1357,7 +1439,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The list of parents, grandparents, grand-grandparents...etc of the clip.</p>
+</div>
+
+
 
 
 
@@ -1371,50 +1487,11 @@
 
 
 
-<div class="description">
-    An array containing every clip and frame that is a child of this clip and has an identifier.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">Array.&lt;<a href="Wick.Base.html">Wick.Base</a>></span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>An array containing every clip and frame that is a child of this clip and has an identifier.</p></li></ul></dd>
     
 
     
@@ -1429,7 +1506,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>An array containing every clip and frame that is a child of this clip and has an identifier.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">Array.&lt;<a href="Wick.Base.html">Wick.Base</a>></span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1443,50 +1565,11 @@
 
 
 
-<div class="description">
-    Determines whether or not the clip is visible in the project.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">boolean</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Determines whether or not the clip is visible in the project.</p></li></ul></dd>
     
 
     
@@ -1501,7 +1584,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Determines whether or not the clip is visible in the project.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">boolean</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1515,50 +1643,11 @@
 
 
 
-<div class="description">
-    The opacity of the clip.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The opacity of the clip.</p></li></ul></dd>
     
 
     
@@ -1573,7 +1662,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The opacity of the clip.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1587,50 +1721,11 @@
 
 
 
-<div class="description">
-    Returns true if the clip has been played through fully once.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">boolean</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Returns true if the clip has been played through fully once.</p></li></ul></dd>
     
 
     
@@ -1645,7 +1740,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns true if the clip has been played through fully once.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">boolean</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1659,50 +1799,11 @@
 
 
 
-<div class="description">
-    The rotation of the clip.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The rotation of the clip.</p></li></ul></dd>
     
 
     
@@ -1717,7 +1818,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The rotation of the clip.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1731,50 +1877,11 @@
 
 
 
-<div class="description">
-    The X scale of the clip.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The X scale of the clip.</p></li></ul></dd>
     
 
     
@@ -1789,7 +1896,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The X scale of the clip.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1803,50 +1955,11 @@
 
 
 
-<div class="description">
-    The Y scale of the clip.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The Y scale of the clip.</p></li></ul></dd>
     
 
     
@@ -1861,7 +1974,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The Y scale of the clip.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1875,50 +2033,11 @@
 
 
 
-<div class="description">
-    The frame to display when animation type is set to singleFrame.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The frame to display when animation type is set to singleFrame.</p></li></ul></dd>
     
 
     
@@ -1933,7 +2052,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The frame to display when animation type is set to singleFrame.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1947,40 +2111,11 @@
 
 
 
-<div class="description">
-    Returns the source clip of this clip if this clip is a clone. Null otherwise.
-</div>
-
-
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Returns the source clip of this clip if this clip is a clone. Null otherwise.</p></li></ul></dd>
     
 
     
@@ -1995,7 +2130,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns the source clip of this clip if this clip is a clone. Null otherwise.</p>
+</div>
+
+
 
 
 
@@ -2009,50 +2178,11 @@
 
 
 
-<div class="description">
-    The uuid of the clip that this clip was cloned from.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">string</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The uuid of the clip that this clip was cloned from.</p></li></ul></dd>
     
 
     
@@ -2067,7 +2197,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The uuid of the clip that this clip was cloned from.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">string</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2081,50 +2256,11 @@
 
 
 
-<div class="description">
-    The frame to display when the clip is synced
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The frame to display when the clip is synced</p></li></ul></dd>
     
 
     
@@ -2139,7 +2275,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The frame to display when the clip is synced</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2153,50 +2334,11 @@
 
 
 
-<div class="description">
-    The timeline of the clip.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type"><a href="Wick.Timeline.html">Wick.Timeline</a></span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The timeline of the clip.</p></li></ul></dd>
     
 
     
@@ -2211,7 +2353,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The timeline of the clip.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type"><a href="Wick.Timeline.html">Wick.Timeline</a></span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2225,50 +2412,11 @@
 
 
 
-<div class="description">
-    The current transformation of the clip.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type"><a href="Wick.Transformation.html">Wick.Transformation</a></span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The current transformation of the clip.</p></li></ul></dd>
     
 
     
@@ -2283,7 +2431,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The current transformation of the clip.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type"><a href="Wick.Transformation.html">Wick.Transformation</a></span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2297,50 +2490,11 @@
 
 
 
-<div class="description">
-    The width of the clip.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The width of the clip.</p></li></ul></dd>
     
 
     
@@ -2355,7 +2509,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The width of the clip.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2369,50 +2568,11 @@
 
 
 
-<div class="description">
-    The X position of the clip.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The X position of the clip.</p></li></ul></dd>
     
 
     
@@ -2427,7 +2587,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The X position of the clip.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2441,50 +2646,11 @@
 
 
 
-<div class="description">
-    The Y position of the clip.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The Y position of the clip.</p></li></ul></dd>
     
 
     
@@ -2499,7 +2665,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The Y position of the clip.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2517,17 +2728,56 @@
 
     
 
-    
     <h4 class="name" id="addObjects"><span class="type-signature"></span>addObjects<span class="signature">(objects)</span><span class="type-signature"></span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Add paths and clips to this clip.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Add paths and clips to this clip.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line441">line 441</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -2537,7 +2787,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -2571,6 +2825,7 @@
 <span class="param-type">Array.&lt;<a href="Wick.Base.html">Wick.Base</a>></span>
 
 
+
             
             </td>
 
@@ -2578,58 +2833,12 @@
 
             
 
-            <td class="description last">the paths and clips to add to the clip</td>
+            <td class="description last"><p>the paths and clips to add to the clip</p></td>
         </tr>
 
     
     </tbody>
 </table>
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line441">line 441</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
 
 
 
@@ -2654,54 +2863,17 @@
 
     
 
-    
     <h4 class="name" id="applySingleFramePosition"><span class="type-signature"></span>applySingleFramePosition<span class="signature">()</span><span class="type-signature"></span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Updates the frame's single frame positions if necessary. Only works if the clip's animationType is 'single'.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Updates the frame's single frame positions if necessary. Only works if the clip's animationType is 'single'.</p></li></ul></dd>
     
 
     
@@ -2716,7 +2888,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2742,54 +2948,17 @@
 
     
 
-    
     <h4 class="name" id="applySyncPosition"><span class="type-signature"></span>applySyncPosition<span class="signature">()</span><span class="type-signature"></span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Updates the clip's playhead position if the Clip is in sync mode
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Updates the clip's playhead position if the Clip is in sync mode</p></li></ul></dd>
     
 
     
@@ -2804,7 +2973,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2830,54 +3033,17 @@
 
     
 
-    
     <h4 class="name" id="breakApart"><span class="type-signature"></span>breakApart<span class="signature">()</span><span class="type-signature"> &rarr; {Array.&lt;<a href="Wick.Base.html">Wick.Base</a>>}</span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Remove this clip and add all of its paths and clips to its parent frame.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Remove this clip and add all of its paths and clips to its parent frame.</p></li></ul></dd>
     
 
     
@@ -2892,6 +3058,30 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
 
 
@@ -2908,22 +3098,35 @@
 
 
 
-<h5>Returns:</h5>
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
 
         
 <div class="param-desc">
-    the objects that were inside the clip.
+    <p>the objects that were inside the clip.</p>
 </div>
 
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type">Array.&lt;<a href="Wick.Base.html">Wick.Base</a>></span>
+
 
 
     </dd>
@@ -2933,133 +3136,22 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="circleHits"><span class="type-signature"></span>circleHits<span class="signature">(other, options)</span><span class="type-signature"> &rarr; {object}</span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Perform circular hit test with other clip.
-</div>
-
-
-
-
-
-
-
-
-
-    <h5>Parameters:</h5>
-    
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>other</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type"><a href="Wick.Clip.html">Wick.Clip</a></span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">the clip to hit test with</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>options</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">object</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">Hit test options</td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Perform circular hit test with other clip.</p></li></ul></dd>
     
 
     
@@ -3074,6 +3166,30 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
 
 
@@ -3088,24 +3204,111 @@
 
 
 
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>other</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="Wick.Clip.html">Wick.Clip</a></span>
 
 
-<h5>Returns:</h5>
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>the clip to hit test with</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Hit test options</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
 
         
 <div class="param-desc">
-    Hit information
+    <p>Hit information</p>
 </div>
 
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type">object</span>
+
 
 
     </dd>
@@ -3115,61 +3318,22 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="clone"><span class="type-signature"></span>clone<span class="signature">()</span><span class="type-signature"> &rarr; {<a href="Wick.Clip.html">Wick.Clip</a>}</span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Copy this clip, and add the copy to the same frame as the original clip.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Copy this clip, and add the copy to the same frame as the original clip.</p></li></ul></dd>
     
 
     
@@ -3184,6 +3348,30 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
 
 
@@ -3200,22 +3388,35 @@
 
 
 
-<h5>Returns:</h5>
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
 
         
 <div class="param-desc">
-    the result of the clone.
+    <p>the result of the clone.</p>
 </div>
 
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type"><a href="Wick.Clip.html">Wick.Clip</a></span>
+
 
 
     </dd>
@@ -3225,133 +3426,22 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="convexHits"><span class="type-signature"></span>convexHits<span class="signature">(other, options)</span><span class="type-signature"> &rarr; {object}</span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Perform convex hull hit test with other clip.
-</div>
-
-
-
-
-
-
-
-
-
-    <h5>Parameters:</h5>
-    
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>other</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type"><a href="Wick.Clip.html">Wick.Clip</a></span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">the clip to hit test with</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>options</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">object</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">Hit test options</td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Perform convex hull hit test with other clip.</p></li></ul></dd>
     
 
     
@@ -3366,79 +3456,6 @@
     
 
     
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h5>Returns:</h5>
-
-        
-<div class="param-desc">
-    Hit information
-</div>
-
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">object</span>
-
-
-    </dd>
-</dl>
-
-    
-
-
-
-
-
-        
-            
-
-    
-
-    
-    <h4 class="name" id="ensureActiveFrameIsContentful"><span class="type-signature"></span>ensureActiveFrameIsContentful<span class="signature">()</span><span class="type-signature"></span></h4>
-    
-
-    
-
-
-
-<div class="description">
-    Add a placeholder path to this clip to ensure the Clip is always selectable when rendered.
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<dl class="details">
 
     
 
@@ -3456,19 +3473,6 @@
 
     
 
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line1187">line 1187</a>
-    </li></ul></dd>
     
 
     
@@ -3490,495 +3494,7 @@
 
 
 
-
-
-
-
-
-
-
-        
-            
-
-    
-
-    
-    <h4 class="name" id="gotoAndPlay"><span class="type-signature"></span>gotoAndPlay<span class="signature">(frame)</span><span class="type-signature"></span></h4>
-    
-
-    
-
-
-
-<div class="description">
-    Moves a clip's playhead to a specific position and plays that clip's timeline from that position.
-</div>
-
-
-
-
-
-
-
-
-
-    <h5>Parameters:</h5>
-    
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>frame</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">number</span>
-|
-
-<span class="param-type">string</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">number or string representing the frame to move the playhead to.</td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line484">line 484</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-            
-
-    
-
-    
-    <h4 class="name" id="gotoAndStop"><span class="type-signature"></span>gotoAndStop<span class="signature">(frame)</span><span class="type-signature"></span></h4>
-    
-
-    
-
-
-
-<div class="description">
-    Moves a clip's playhead to a specific position and stops that clip's timeline on that position.
-</div>
-
-
-
-
-
-
-
-
-
-    <h5>Parameters:</h5>
-    
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>frame</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">number</span>
-|
-
-<span class="param-type">string</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">number or string representing the frame to move the playhead to.</td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line475">line 475</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-            
-
-    
-
-    
-    <h4 class="name" id="gotoNextFrame"><span class="type-signature"></span>gotoNextFrame<span class="signature">()</span><span class="type-signature"></span></h4>
-    
-
-    
-
-
-
-<div class="description">
-    Move the playhead of the clips timeline forward one frame. Does nothing if the clip is on its last frame.
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line492">line 492</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-            
-
-    
-
-    
-    <h4 class="name" id="gotoPrevFrame"><span class="type-signature"></span>gotoPrevFrame<span class="signature">()</span><span class="type-signature"></span></h4>
-    
-
-    
-
-
-
-<div class="description">
-    Move the playhead of the clips timeline backwards one frame. Does nothing if the clip is on its first frame.
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line500">line 500</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-            
-
-    
-
-    
-    <h4 class="name" id="hits"><span class="type-signature"></span>hits<span class="signature">(other, options)</span><span class="type-signature"> &rarr; {object}</span></h4>
-    
-
-    
-
-
-
-<div class="description">
-    Perform hit test with other clip.
-</div>
-
-
-
-
-
-
-
-
-
-    <h5>Parameters:</h5>
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -4012,6 +3528,7 @@
 <span class="param-type"><a href="Wick.Clip.html">Wick.Clip</a></span>
 
 
+
             
             </td>
 
@@ -4019,7 +3536,7 @@
 
             
 
-            <td class="description last">the clip to hit test with</td>
+            <td class="description last"><p>the clip to hit test with</p></td>
         </tr>
 
     
@@ -4035,6 +3552,7 @@
 <span class="param-type">object</span>
 
 
+
             
             </td>
 
@@ -4042,7 +3560,7 @@
 
             
 
-            <td class="description last">Hit test options</td>
+            <td class="description last"><p>Hit test options</p></td>
         </tr>
 
     
@@ -4054,8 +3572,65 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Hit information</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="ensureActiveFrameIsContentful"><span class="type-signature"></span>ensureActiveFrameIsContentful<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
 <dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Add a placeholder path to this clip to ensure the Clip is always selectable when rendered.</p></li></ul></dd>
+    
 
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line1187">line 1187</a>
+    </li></ul></dd>
     
 
     
@@ -4078,6 +3653,508 @@
 
     
 
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="gotoAndPlay"><span class="type-signature"></span>gotoAndPlay<span class="signature">(frame)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Moves a clip's playhead to a specific position and plays that clip's timeline from that position.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line484">line 484</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>frame</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+|
+
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>number or string representing the frame to move the playhead to.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="gotoAndStop"><span class="type-signature"></span>gotoAndStop<span class="signature">(frame)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Moves a clip's playhead to a specific position and stops that clip's timeline on that position.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line475">line 475</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>frame</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+|
+
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>number or string representing the frame to move the playhead to.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="gotoNextFrame"><span class="type-signature"></span>gotoNextFrame<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Move the playhead of the clips timeline forward one frame. Does nothing if the clip is on its last frame.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line492">line 492</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="gotoPrevFrame"><span class="type-signature"></span>gotoPrevFrame<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Move the playhead of the clips timeline backwards one frame. Does nothing if the clip is on its first frame.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line500">line 500</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="hits"><span class="type-signature"></span>hits<span class="signature">(other, options)</span><span class="type-signature"> &rarr; {object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Perform hit test with other clip.</p></li></ul></dd>
     
 
     
@@ -4092,6 +4169,30 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
 
 
@@ -4106,61 +4207,7 @@
 
 
 
-
-
-<h5>Returns:</h5>
-
-        
-<div class="param-desc">
-    Hit information
-</div>
-
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">object</span>
-
-
-    </dd>
-</dl>
-
-    
-
-
-
-
-
-        
-            
-
-    
-
-    
-    <h4 class="name" id="hitTest"><span class="type-signature"></span>hitTest<span class="signature">(other)</span><span class="type-signature"> &rarr; {boolean}</span></h4>
-    
-
-    
-
-
-
-<div class="description">
-    Returns true if this clip collides with another clip.
-</div>
-
-
-
-
-
-
-
-
-
-    <h5>Parameters:</h5>
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -4194,6 +4241,7 @@
 <span class="param-type"><a href="Wick.Clip.html">Wick.Clip</a></span>
 
 
+
             
             </td>
 
@@ -4201,7 +4249,31 @@
 
             
 
-            <td class="description last">The other clip to check collision with.</td>
+            <td class="description last"><p>the clip to hit test with</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Hit test options</p></td>
         </tr>
 
     
@@ -4213,30 +4285,58 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Hit information</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="hitTest"><span class="type-signature"></span>hitTest<span class="signature">(other)</span><span class="type-signature"> &rarr; {boolean}</span></h4>
+
+    
+
+
+
+
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Returns true if this clip collides with another clip.</p></li></ul></dd>
     
 
     
@@ -4251,6 +4351,30 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
 
 
@@ -4265,24 +4389,87 @@
 
 
 
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>other</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="Wick.Clip.html">Wick.Clip</a></span>
 
 
-<h5>Returns:</h5>
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>The other clip to check collision with.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
 
         
 <div class="param-desc">
-    True if this clip collides the other clip.
+    <p>True if this clip collides the other clip.</p>
 </div>
 
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type">boolean</span>
+
 
 
     </dd>
@@ -4292,61 +4479,22 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="play"><span class="type-signature"></span>play<span class="signature">()</span><span class="type-signature"></span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Plays a clip's timeline from that clip's current playhead position.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Plays a clip's timeline from that clip's current playhead position.</p></li></ul></dd>
     
 
     
@@ -4361,7 +4509,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4387,17 +4569,57 @@
 
     
 
-    
     <h4 class="name" id="radiusAtPointInDirection"><span class="type-signature"></span>radiusAtPointInDirection<span class="signature">(ch, p, targetTheta)</span><span class="type-signature"> &rarr; {number}</span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Casts a ray from p in the direction targetTheta and intersects it with the hull ch,returns the distance from p to the surface of ch.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Casts a ray from p in the direction targetTheta and intersects it with the hull ch,
+returns the distance from p to the surface of ch.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line901">line 901</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -4407,7 +4629,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -4441,6 +4667,7 @@
 <span class="param-type">list</span>
 
 
+
             
             </td>
 
@@ -4448,7 +4675,7 @@
 
             
 
-            <td class="description last">the convex hull to intersect a ray with</td>
+            <td class="description last"><p>the convex hull to intersect a ray with</p></td>
         </tr>
 
     
@@ -4464,6 +4691,7 @@
 <span class="param-type">object</span>
 
 
+
             
             </td>
 
@@ -4471,7 +4699,7 @@
 
             
 
-            <td class="description last">the point of origin of the ray</td>
+            <td class="description last"><p>the point of origin of the ray</p></td>
         </tr>
 
     
@@ -4487,6 +4715,7 @@
 <span class="param-type">number</span>
 
 
+
             
             </td>
 
@@ -4494,7 +4723,7 @@
 
             
 
-            <td class="description last">the direction of the ray</td>
+            <td class="description last"><p>the direction of the ray</p></td>
         </tr>
 
     
@@ -4506,45 +4735,6 @@
 
 
 
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line901">line 901</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
 
 
 
@@ -4555,27 +4745,23 @@
 
 
 
-
-
-
-
-
-<h5>Returns:</h5>
+<h5 class="h5-returns">Returns:</h5>
 
         
 <div class="param-desc">
-    the distance to the surface of the convex hull from the point in the direction theta
+    <p>the distance to the surface of the convex hull from the point in the direction theta</p>
 </div>
 
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type">number</span>
+
 
 
     </dd>
@@ -4585,24 +4771,61 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="rectangleHits"><span class="type-signature"></span>rectangleHits<span class="signature">(other, options)</span><span class="type-signature"> &rarr; {object}</span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Perform rectangular hit test with other clip.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Perform rectangular hit test with other clip.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line614">line 614</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -4612,7 +4835,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -4646,6 +4873,7 @@
 <span class="param-type"><a href="Wick.Clip.html">Wick.Clip</a></span>
 
 
+
             
             </td>
 
@@ -4653,7 +4881,7 @@
 
             
 
-            <td class="description last">the clip to hit test with</td>
+            <td class="description last"><p>the clip to hit test with</p></td>
         </tr>
 
     
@@ -4669,6 +4897,7 @@
 <span class="param-type">object</span>
 
 
+
             
             </td>
 
@@ -4676,7 +4905,7 @@
 
             
 
-            <td class="description last">Hit test options</td>
+            <td class="description last"><p>Hit test options</p></td>
         </tr>
 
     
@@ -4688,45 +4917,6 @@
 
 
 
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line614">line 614</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
 
 
 
@@ -4737,27 +4927,23 @@
 
 
 
-
-
-
-
-
-<h5>Returns:</h5>
+<h5 class="h5-returns">Returns:</h5>
 
         
 <div class="param-desc">
-    Hit information
+    <p>Hit information</p>
 </div>
 
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type">object</span>
+
 
 
     </dd>
@@ -4767,61 +4953,22 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="remove"><span class="type-signature"></span>remove<span class="signature">()</span><span class="type-signature"></span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Remove this clip from its parent frame.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Remove this clip from its parent frame.</p></li></ul></dd>
     
 
     
@@ -4836,7 +4983,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4862,17 +5043,56 @@
 
     
 
-    
     <h4 class="name" id="removeClone"><span class="type-signature"></span>removeClone<span class="signature">(uuid)</span><span class="type-signature"></span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Remove a clone from the clones array by uuid.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Remove a clone from the clones array by uuid.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line387">line 387</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -4882,7 +5102,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -4916,6 +5140,7 @@
 <span class="param-type">string</span>
 
 
+
             
             </td>
 
@@ -4935,52 +5160,6 @@
 
 
 
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Clip.js.html">base/Clip.js</a>, <a href="base_Clip.js.html#line387">line 387</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
 
 
 
@@ -4999,54 +5178,17 @@
 
     
 
-    
     <h4 class="name" id="resetTimelinePosition"><span class="type-signature"></span>resetTimelinePosition<span class="signature">()</span><span class="type-signature"></span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Resets the clip's timeline position.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Resets the clip's timeline position.</p></li></ul></dd>
     
 
     
@@ -5061,7 +5203,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5087,54 +5263,17 @@
 
     
 
-    
     <h4 class="name" id="setText"><span class="type-signature"></span>setText<span class="signature">()</span><span class="type-signature"></span></h4>
-    
 
     
-
-
-
-<div class="description">
-    This is a stopgap to prevent users from using setText with a Clip.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>This is a stopgap to prevent users from using setText with a Clip.</p></li></ul></dd>
     
 
     
@@ -5149,7 +5288,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5175,54 +5348,17 @@
 
     
 
-    
     <h4 class="name" id="stop"><span class="type-signature"></span>stop<span class="signature">()</span><span class="type-signature"></span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Stops a clip's timeline on that clip's current playhead position.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Stops a clip's timeline on that clip's current playhead position.</p></li></ul></dd>
     
 
     
@@ -5237,7 +5373,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5263,54 +5433,17 @@
 
     
 
-    
     <h4 class="name" id="updateTimelineForAnimationType"><span class="type-signature"></span>updateTimelineForAnimationType<span class="signature">()</span><span class="type-signature"></span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Updates the timeline of the clip based on the animation type of the clip.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Updates the timeline of the clip based on the animation type of the clip.</p></li></ul></dd>
     
 
     
@@ -5325,7 +5458,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5359,19 +5526,21 @@
 
 
 
+    
+    
 </div>
-
-<nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="BuiltinAssets.html">BuiltinAssets</a></li><li><a href="GlobalAPI.html">GlobalAPI</a></li><li><a href="paper.SelectionGUI.html">SelectionGUI</a></li><li><a href="paper-paper.Selection.html">Selection</a></li><li><a href="SelectionWidget.html">SelectionWidget</a></li><li><a href="Wick.AutoSave.html">AutoSave</a></li><li><a href="Wick.Base.html">Base</a></li><li><a href="Wick.Button.html">Button</a></li><li><a href="Wick.Clip.html">Clip</a></li><li><a href="Wick.Clipboard.html">Clipboard</a></li><li><a href="Wick.FileCache.html">FileCache</a></li><li><a href="Wick.Frame.html">Frame</a></li><li><a href="Wick.GUIElement.Project.html">Project</a></li><li><a href="Wick.GUIElement.Timeline.html">Timeline</a></li><li><a href="Wick.GUIElement-Wick.GUIElement.Breadcrumbs.html">Breadcrumbs</a></li><li><a href="Wick.GUIElement-Wick.GUIElement.Button.html">Button</a></li><li><a href="Wick.History.html">History</a></li><li><a href="Wick.HTMLExport.html">HTMLExport</a></li><li><a href="Wick.HTMLPreview.html">HTMLPreview</a></li><li><a href="Wick.ImageSequence.html">ImageSequence</a></li><li><a href="Wick.Layer.html">Layer</a></li><li><a href="Wick.Path.html">Path</a></li><li><a href="Wick.Project.html">Project</a></li><li><a href="Wick.Selection.html">Selection</a></li><li><a href="Wick.SVGFile.html">SVGFile</a></li><li><a href="Wick.Tickable.html">Tickable</a></li><li><a href="Wick.Timeline.html">Timeline</a></li><li><a href="Wick.Tools-Wick.Tools.Brush.html">Brush</a></li><li><a href="Wick.Tools-Wick.Tools.Cursor.html">Cursor</a></li><li><a href="Wick.Tools-Wick.Tools.Ellipse.html">Ellipse</a></li><li><a href="Wick.Tools-Wick.Tools.Eraser.html">Eraser</a></li><li><a href="Wick.Tools-Wick.Tools.Eyedropper.html">Eyedropper</a></li><li><a href="Wick.Tools-Wick.Tools.FillBucket.html">FillBucket</a></li><li><a href="Wick.Tools-Wick.Tools.Interact.html">Interact</a></li><li><a href="Wick.Tools-Wick.Tools.Line.html">Line</a></li><li><a href="Wick.Tools-Wick.Tools.None.html">None</a></li><li><a href="Wick.Tools-Wick.Tools.Pan.html">Pan</a></li><li><a href="Wick.Tools-Wick.Tools.Pencil.html">Pencil</a></li><li><a href="Wick.Tools-Wick.Tools.Rectangle.html">Rectangle</a></li><li><a href="Wick.Tools-Wick.Tools.Text.html">Text</a></li><li><a href="Wick.Tools-Wick.Tools.Zoom.html">Zoom</a></li><li><a href="Wick.Transformation.html">Transformation</a></li><li><a href="Wick.Tween.html">Tween</a></li><li><a href="Wick.View-Wick.View.Clip.html">Clip</a></li><li><a href="Wick.View-Wick.View.Frame.html">Frame</a></li><li><a href="Wick.View-Wick.View.Path.html">Path</a></li><li><a href="Wick.View-Wick.View.Selection.html">Selection</a></li><li><a href="Wick.WickFile.html">WickFile</a></li><li><a href="Wick.WickObjectFile.html">WickObjectFile</a></li><li><a href="Wick.ZIPExport.html">ZIPExport</a></li><li><a href="WickObjectCache.html">WickObjectCache</a></li><li><a href="Wick-Wick.Asset.html">Asset</a></li><li><a href="Wick-Wick.AudioTrack.html">AudioTrack</a></li><li><a href="Wick-Wick.ClipAsset.html">ClipAsset</a></li><li><a href="Wick-Wick.Color.html">Color</a></li><li><a href="Wick-Wick.FileAsset.html">FileAsset</a></li><li><a href="Wick-Wick.FontAsset.html">FontAsset</a></li><li><a href="Wick-Wick.GIFAsset.html">GIFAsset</a></li><li><a href="Wick-Wick.GUIElement.html">GUIElement</a></li><li><a href="Wick-Wick.ImageAsset.html">ImageAsset</a></li><li><a href="Wick-Wick.SoundAsset.html">SoundAsset</a></li><li><a href="Wick-Wick.SVGAsset.html">SVGAsset</a></li><li><a href="Wick-Wick.Tool.html">Tool</a></li><li><a href="Wick-Wick.ToolSettings.html">ToolSettings</a></li><li><a href="Wick-Wick.View.html">View</a></li></ul><h3>Global</h3><ul><li><a href="global.html#type">type</a></li><li><a href="global.html#Wick">Wick</a></li></ul>
-</nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.11</a> on Sat Mar 01 2025 20:03:29 GMT-0300 (Brasilia Standard Time)
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.11</a> on Sat Mar 01 2025 20:10:09 GMT-0300 (Brasilia Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
 </footer>
 
-<script> prettyPrint(); </script>
-<script src="scripts/linenumber.js"> </script>
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
 </body>
 </html>

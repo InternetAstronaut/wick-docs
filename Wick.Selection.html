@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="utf-8">
-    <title>JSDoc: Class: Selection</title>
-
-    <script src="scripts/prettify/prettify.js"> </script>
-    <script src="scripts/prettify/lang-css.js"> </script>
+    <title>Selection - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
-    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
 
-<div id="main">
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
 
-    <h1 class="page-title">Class: Selection</h1>
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="BuiltinAssets.html">BuiltinAssets</a></li><li><a href="GlobalAPI.html">GlobalAPI</a><ul class='methods'><li data-type='method'><a href="GlobalAPI.html#gotoAndPlay">gotoAndPlay</a></li><li data-type='method'><a href="GlobalAPI.html#gotoAndStop">gotoAndStop</a></li><li data-type='method'><a href="GlobalAPI.html#gotoNextFrame">gotoNextFrame</a></li><li data-type='method'><a href="GlobalAPI.html#gotoPrevFrame">gotoPrevFrame</a></li><li data-type='method'><a href="GlobalAPI.html#hideCursor">hideCursor</a></li><li data-type='method'><a href="GlobalAPI.html#isKeyDown">isKeyDown</a></li><li data-type='method'><a href="GlobalAPI.html#isKeyJustPressed">isKeyJustPressed</a></li><li data-type='method'><a href="GlobalAPI.html#isMouseDown">isMouseDown</a></li><li data-type='method'><a href="GlobalAPI.html#keyIsDown">keyIsDown</a></li><li data-type='method'><a href="GlobalAPI.html#keyIsJustPressed">keyIsJustPressed</a></li><li data-type='method'><a href="GlobalAPI.html#onEvent">onEvent</a></li><li data-type='method'><a href="GlobalAPI.html#play">play</a></li><li data-type='method'><a href="GlobalAPI.html#playSound">playSound</a></li><li data-type='method'><a href="GlobalAPI.html#showCursor">showCursor</a></li><li data-type='method'><a href="GlobalAPI.html#stop">stop</a></li><li data-type='method'><a href="GlobalAPI.html#stopAllSounds">stopAllSounds</a></li><li data-type='method'><a href="GlobalAPI.html#stopSound">stopSound</a></li></ul></li><li><a href="paper.SelectionGUI.html">SelectionGUI</a><ul class='methods'><li data-type='method'><a href="paper.SelectionGUI.html#destroy">destroy</a></li><li data-type='method'><a href="paper.SelectionGUI.html#moveHandleAndRotate">moveHandleAndRotate</a></li><li data-type='method'><a href="paper.SelectionGUI.html#moveHandleAndScale">moveHandleAndScale</a></li></ul></li><li><a href="paper-paper.Selection.html">Selection</a></li><li><a href="SelectionWidget.html">SelectionWidget</a><ul class='methods'><li data-type='method'><a href="SelectionWidget.html#build">build</a></li><li data-type='method'><a href="SelectionWidget.html#finishTransformation">finishTransformation</a></li><li data-type='method'><a href="SelectionWidget.html#flipHorizontally">flipHorizontally</a></li><li data-type='method'><a href="SelectionWidget.html#flipVertically">flipVertically</a></li><li data-type='method'><a href="SelectionWidget.html#rotateSelection">rotateSelection</a></li><li data-type='method'><a href="SelectionWidget.html#scaleSelection">scaleSelection</a></li><li data-type='method'><a href="SelectionWidget.html#startTransformation">startTransformation</a></li><li data-type='method'><a href="SelectionWidget.html#transformSelection">transformSelection</a></li><li data-type='method'><a href="SelectionWidget.html#translateSelection">translateSelection</a></li><li data-type='method'><a href="SelectionWidget.html#updateTransformation">updateTransformation</a></li></ul></li><li><a href="Wick.AutoSave.html">AutoSave</a><ul class='methods'><li data-type='method'><a href="Wick.AutoSave.html#.addAutosaveToList">addAutosaveToList</a></li><li data-type='method'><a href="Wick.AutoSave.html#.delete">delete</a></li><li data-type='method'><a href="Wick.AutoSave.html#.deleteAutosaveData">deleteAutosaveData</a></li><li data-type='method'><a href="Wick.AutoSave.html#.generateAutosaveData">generateAutosaveData</a></li><li data-type='method'><a href="Wick.AutoSave.html#.generateProjectFromAutosaveData">generateProjectFromAutosaveData</a></li><li data-type='method'><a href="Wick.AutoSave.html#.getAutosavesList">getAutosavesList</a></li><li data-type='method'><a href="Wick.AutoSave.html#.load">load</a></li><li data-type='method'><a href="Wick.AutoSave.html#.readAutosaveData">readAutosaveData</a></li><li data-type='method'><a href="Wick.AutoSave.html#.removeAutosaveFromList">removeAutosaveFromList</a></li><li data-type='method'><a href="Wick.AutoSave.html#.save">save</a></li><li data-type='method'><a href="Wick.AutoSave.html#.updateAutosavesList">updateAutosavesList</a></li><li data-type='method'><a href="Wick.AutoSave.html#.writeAutosaveData">writeAutosaveData</a></li></ul></li><li><a href="Wick.Base.html">Base</a><ul class='methods'><li data-type='method'><a href="Wick.Base.html#.fromData">fromData</a></li><li data-type='method'><a href="Wick.Base.html#.import">import</a></li><li data-type='method'><a href="Wick.Base.html#addChild">addChild</a></li><li data-type='method'><a href="Wick.Base.html#copy">copy</a></li><li data-type='method'><a href="Wick.Base.html#deserialize">deserialize</a></li><li data-type='method'><a href="Wick.Base.html#export">export</a></li><li data-type='method'><a href="Wick.Base.html#getChild">getChild</a></li><li data-type='method'><a href="Wick.Base.html#getChildren">getChildren</a></li><li data-type='method'><a href="Wick.Base.html#getChildrenRecursive">getChildrenRecursive</a></li><li data-type='method'><a href="Wick.Base.html#getLinkedAssets">getLinkedAssets</a></li><li data-type='method'><a href="Wick.Base.html#insertChild">insertChild</a></li><li data-type='method'><a href="Wick.Base.html#removeChild">removeChild</a></li><li data-type='method'><a href="Wick.Base.html#serialize">serialize</a></li></ul></li><li><a href="Wick.Button.html">Button</a></li><li><a href="Wick.Clip.html">Clip</a><ul class='methods'><li data-type='method'><a href="Wick.Clip.html#addObjects">addObjects</a></li><li data-type='method'><a href="Wick.Clip.html#applySingleFramePosition">applySingleFramePosition</a></li><li data-type='method'><a href="Wick.Clip.html#applySyncPosition">applySyncPosition</a></li><li data-type='method'><a href="Wick.Clip.html#breakApart">breakApart</a></li><li data-type='method'><a href="Wick.Clip.html#circleHits">circleHits</a></li><li data-type='method'><a href="Wick.Clip.html#clone">clone</a></li><li data-type='method'><a href="Wick.Clip.html#convexHits">convexHits</a></li><li data-type='method'><a href="Wick.Clip.html#ensureActiveFrameIsContentful">ensureActiveFrameIsContentful</a></li><li data-type='method'><a href="Wick.Clip.html#gotoAndPlay">gotoAndPlay</a></li><li data-type='method'><a href="Wick.Clip.html#gotoAndStop">gotoAndStop</a></li><li data-type='method'><a href="Wick.Clip.html#gotoNextFrame">gotoNextFrame</a></li><li data-type='method'><a href="Wick.Clip.html#gotoPrevFrame">gotoPrevFrame</a></li><li data-type='method'><a href="Wick.Clip.html#hits">hits</a></li><li data-type='method'><a href="Wick.Clip.html#hitTest">hitTest</a></li><li data-type='method'><a href="Wick.Clip.html#play">play</a></li><li data-type='method'><a href="Wick.Clip.html#radiusAtPointInDirection">radiusAtPointInDirection</a></li><li data-type='method'><a href="Wick.Clip.html#rectangleHits">rectangleHits</a></li><li data-type='method'><a href="Wick.Clip.html#remove">remove</a></li><li data-type='method'><a href="Wick.Clip.html#removeClone">removeClone</a></li><li data-type='method'><a href="Wick.Clip.html#resetTimelinePosition">resetTimelinePosition</a></li><li data-type='method'><a href="Wick.Clip.html#setText">setText</a></li><li data-type='method'><a href="Wick.Clip.html#stop">stop</a></li><li data-type='method'><a href="Wick.Clip.html#updateTimelineForAnimationType">updateTimelineForAnimationType</a></li></ul></li><li><a href="Wick.Clipboard.html">Clipboard</a><ul class='methods'><li data-type='method'><a href="Wick.Clipboard.html#copyObjectsToClipboard">copyObjectsToClipboard</a></li><li data-type='method'><a href="Wick.Clipboard.html#pasteObjectsFromClipboard">pasteObjectsFromClipboard</a></li></ul></li><li><a href="Wick.FileCache.html">FileCache</a><ul class='methods'><li data-type='method'><a href="Wick.FileCache.html#.addFile">addFile</a></li><li data-type='method'><a href="Wick.FileCache.html#.clear">clear</a></li><li data-type='method'><a href="Wick.FileCache.html#.getAllFiles">getAllFiles</a></li><li data-type='method'><a href="Wick.FileCache.html#.getFile">getFile</a></li><li data-type='method'><a href="Wick.FileCache.html#.loadFilesFromLocalforage">loadFilesFromLocalforage</a></li><li data-type='method'><a href="Wick.FileCache.html#.removeFile">removeFile</a></li></ul></li><li><a href="Wick.Frame.html">Frame</a><ul class='methods'><li data-type='method'><a href="Wick.Frame.html#addClip">addClip</a></li><li data-type='method'><a href="Wick.Frame.html#addPath">addPath</a></li><li data-type='method'><a href="Wick.Frame.html#addTween">addTween</a></li><li data-type='method'><a href="Wick.Frame.html#applyClipSingleFramePositions">applyClipSingleFramePositions</a></li><li data-type='method'><a href="Wick.Frame.html#applyTweenTransforms">applyTweenTransforms</a></li><li data-type='method'><a href="Wick.Frame.html#containedWithin">containedWithin</a></li><li data-type='method'><a href="Wick.Frame.html#createTween">createTween</a></li><li data-type='method'><a href="Wick.Frame.html#cut">cut</a></li><li data-type='method'><a href="Wick.Frame.html#distanceFrom">distanceFrom</a></li><li data-type='method'><a href="Wick.Frame.html#extendAndPushOtherFrames">extendAndPushOtherFrames</a></li><li data-type='method'><a href="Wick.Frame.html#getActiveTween">getActiveTween</a></li><li data-type='method'><a href="Wick.Frame.html#getLinkedAssets">getLinkedAssets</a></li><li data-type='method'><a href="Wick.Frame.html#getRelativePlayheadPosition">getRelativePlayheadPosition</a></li><li data-type='method'><a href="Wick.Frame.html#getTweenAtCurrentPlayheadPosition">getTweenAtCurrentPlayheadPosition</a></li><li data-type='method'><a href="Wick.Frame.html#getTweenAtPosition">getTweenAtPosition</a></li><li data-type='method'><a href="Wick.Frame.html#inPosition">inPosition</a></li><li data-type='method'><a href="Wick.Frame.html#inRange">inRange</a></li><li data-type='method'><a href="Wick.Frame.html#isSoundPlaying">isSoundPlaying</a></li><li data-type='method'><a href="Wick.Frame.html#playSound">playSound</a></li><li data-type='method'><a href="Wick.Frame.html#remove">remove</a></li><li data-type='method'><a href="Wick.Frame.html#removeAllTweens">removeAllTweens</a></li><li data-type='method'><a href="Wick.Frame.html#removeClip">removeClip</a></li><li data-type='method'><a href="Wick.Frame.html#removePath">removePath</a></li><li data-type='method'><a href="Wick.Frame.html#removeSound">removeSound</a></li><li data-type='method'><a href="Wick.Frame.html#removeTween">removeTween</a></li><li data-type='method'><a href="Wick.Frame.html#seekTweenBehind">seekTweenBehind</a></li><li data-type='method'><a href="Wick.Frame.html#seekTweenInFront">seekTweenInFront</a></li><li data-type='method'><a href="Wick.Frame.html#shrinkAndPullOtherFrames">shrinkAndPullOtherFrames</a></li><li data-type='method'><a href="Wick.Frame.html#stopSound">stopSound</a></li><li data-type='method'><a href="Wick.Frame.html#updateClipTimelinesForAnimationType">updateClipTimelinesForAnimationType</a></li></ul></li><li><a href="Wick.GUIElement.Project.html">Project</a><ul class='methods'><li data-type='method'><a href="Wick.GUIElement.Project.html#_onMouseWheel">_onMouseWheel</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#checkForPlayheadAutoscroll">checkForPlayheadAutoscroll</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#closePopupMenu">closePopupMenu</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#createCanvasEvent">createCanvasEvent</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#createDocumentEvent">createDocumentEvent</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#dragAssetAtPosition">dragAssetAtPosition</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#draw">draw</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#markElementAsDrawn">markElementAsDrawn</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#onProjectModified">onProjectModified</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#onProjectSoftModified">onProjectSoftModified</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#openPopupMenu">openPopupMenu</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#removeAllEventListeners">removeAllEventListeners</a></li><li data-type='method'><a href="Wick.GUIElement.Project.html#resize">resize</a></li></ul></li><li><a href="Wick.GUIElement.Timeline.html">Timeline</a><ul class='methods'><li data-type='method'><a href="Wick.GUIElement.Timeline.html#draw">draw</a></li></ul></li><li><a href="Wick.GUIElement-Wick.GUIElement.Breadcrumbs.html">Breadcrumbs</a></li><li><a href="Wick.GUIElement-Wick.GUIElement.Button.html">Button</a></li><li><a href="Wick.History.html">History</a><ul class='methods'><li data-type='method'><a href="Wick.History.html#getObjectUUIDs">getObjectUUIDs</a></li><li data-type='method'><a href="Wick.History.html#loadSnapshot">loadSnapshot</a></li><li data-type='method'><a href="Wick.History.html#popState">popState</a></li><li data-type='method'><a href="Wick.History.html#pushState">pushState</a></li><li data-type='method'><a href="Wick.History.html#recoverState">recoverState</a></li><li data-type='method'><a href="Wick.History.html#reset">reset</a></li><li data-type='method'><a href="Wick.History.html#saveSnapshot">saveSnapshot</a></li></ul></li><li><a href="Wick.HTMLExport.html">HTMLExport</a><ul class='methods'><li data-type='method'><a href="Wick.HTMLExport.html#.bundleProject">bundleProject</a></li></ul></li><li><a href="Wick.HTMLPreview.html">HTMLPreview</a><ul class='methods'><li data-type='method'><a href="Wick.HTMLPreview.html#.previewProject">previewProject</a></li></ul></li><li><a href="Wick.ImageSequence.html">ImageSequence</a><ul class='methods'><li data-type='method'><a href="Wick.ImageSequence.html#.toPNGSequence">toPNGSequence</a></li></ul></li><li><a href="Wick.Layer.html">Layer</a><ul class='methods'><li data-type='method'><a href="Wick.Layer.html#activate">activate</a></li><li data-type='method'><a href="Wick.Layer.html#addFrame">addFrame</a></li><li data-type='method'><a href="Wick.Layer.html#addTween">addTween</a></li><li data-type='method'><a href="Wick.Layer.html#findGaps">findGaps</a></li><li data-type='method'><a href="Wick.Layer.html#getFrameAtPlayheadPosition">getFrameAtPlayheadPosition</a></li><li data-type='method'><a href="Wick.Layer.html#getFramesContainedWithin">getFramesContainedWithin</a></li><li data-type='method'><a href="Wick.Layer.html#getFramesInRange">getFramesInRange</a></li><li data-type='method'><a href="Wick.Layer.html#insertBlankFrame">insertBlankFrame</a></li><li data-type='method'><a href="Wick.Layer.html#move">move</a></li><li data-type='method'><a href="Wick.Layer.html#remove">remove</a></li><li data-type='method'><a href="Wick.Layer.html#removeFrame">removeFrame</a></li><li data-type='method'><a href="Wick.Layer.html#resolveGaps">resolveGaps</a></li><li data-type='method'><a href="Wick.Layer.html#resolveOverlap">resolveOverlap</a></li></ul></li><li><a href="Wick.Path.html">Path</a><ul class='methods'><li data-type='method'><a href="Wick.Path.html#.booleanOp">booleanOp</a></li><li data-type='method'><a href="Wick.Path.html#.createImagePath">createImagePath</a></li><li data-type='method'><a href="Wick.Path.html#.createImagePathSync">createImagePathSync</a></li><li data-type='method'><a href="Wick.Path.html#.intersect">intersect</a></li><li data-type='method'><a href="Wick.Path.html#.subtract">subtract</a></li><li data-type='method'><a href="Wick.Path.html#.unite">unite</a></li><li data-type='method'><a href="Wick.Path.html#flatten">flatten</a></li><li data-type='method'><a href="Wick.Path.html#getLinkedAssets">getLinkedAssets</a></li><li data-type='method'><a href="Wick.Path.html#remove">remove</a></li><li data-type='method'><a href="Wick.Path.html#setText">setText</a></li><li data-type='method'><a href="Wick.Path.html#updateJSON">updateJSON</a></li></ul></li><li><a href="Wick.Project.html">Project</a><ul class='methods'><li data-type='method'><a href="Wick.Project.html#addAsset">addAsset</a></li><li data-type='method'><a href="Wick.Project.html#addObject">addObject</a></li><li data-type='method'><a href="Wick.Project.html#breakApartSelection">breakApartSelection</a></li><li data-type='method'><a href="Wick.Project.html#cleanupUnusedAssets">cleanupUnusedAssets</a></li><li data-type='method'><a href="Wick.Project.html#copySelectionToClipboard">copySelectionToClipboard</a></li><li data-type='method'><a href="Wick.Project.html#createClipFromLayers">createClipFromLayers</a></li><li data-type='method'><a href="Wick.Project.html#createClipFromSelection">createClipFromSelection</a></li><li data-type='method'><a href="Wick.Project.html#createClipInstanceFromAsset">createClipInstanceFromAsset</a></li><li data-type='method'><a href="Wick.Project.html#createImagePathFromAsset">createImagePathFromAsset</a></li><li data-type='method'><a href="Wick.Project.html#createSVGInstanceFromAsset">createSVGInstanceFromAsset</a></li><li data-type='method'><a href="Wick.Project.html#createTween">createTween</a></li><li data-type='method'><a href="Wick.Project.html#cutSelectedFrames">cutSelectedFrames</a></li><li data-type='method'><a href="Wick.Project.html#cutSelectionToClipboard">cutSelectionToClipboard</a></li><li data-type='method'><a href="Wick.Project.html#deleteSelectedObjects">deleteSelectedObjects</a></li><li data-type='method'><a href="Wick.Project.html#destroy">destroy</a></li><li data-type='method'><a href="Wick.Project.html#distributeSelectionToLayers">distributeSelectionToLayers</a></li><li data-type='method'><a href="Wick.Project.html#doBooleanOperationOnSelection">doBooleanOperationOnSelection</a></li><li data-type='method'><a href="Wick.Project.html#duplicateSelection">duplicateSelection</a></li><li data-type='method'><a href="Wick.Project.html#errorOccured">errorOccured</a></li><li data-type='method'><a href="Wick.Project.html#extendFrames">extendFrames</a></li><li data-type='method'><a href="Wick.Project.html#extendFramesAndPushOtherFrames">extendFramesAndPushOtherFrames</a></li><li data-type='method'><a href="Wick.Project.html#focusTimelineOfParentClip">focusTimelineOfParentClip</a></li><li data-type='method'><a href="Wick.Project.html#focusTimelineOfSelectedClip">focusTimelineOfSelectedClip</a></li><li data-type='method'><a href="Wick.Project.html#generateAudioSequence">generateAudioSequence</a></li><li data-type='method'><a href="Wick.Project.html#generateAudioTrack">generateAudioTrack</a></li><li data-type='method'><a href="Wick.Project.html#generateImageSequence">generateImageSequence</a></li><li data-type='method'><a href="Wick.Project.html#generateSoundInfo">generateSoundInfo</a></li><li data-type='method'><a href="Wick.Project.html#getAllFrames">getAllFrames</a></li><li data-type='method'><a href="Wick.Project.html#getAllOnionSkinnedFrames">getAllOnionSkinnedFrames</a></li><li data-type='method'><a href="Wick.Project.html#getAssetByName">getAssetByName</a></li><li data-type='method'><a href="Wick.Project.html#getAssetByUUID">getAssetByUUID</a></li><li data-type='method'><a href="Wick.Project.html#getAssets">getAssets</a></li><li data-type='method'><a href="Wick.Project.html#getAudioInfo">getAudioInfo</a></li><li data-type='method'><a href="Wick.Project.html#getFonts">getFonts</a></li><li data-type='method'><a href="Wick.Project.html#getObjectByUUID">getObjectByUUID</a></li><li data-type='method'><a href="Wick.Project.html#hasFont">hasFont</a></li><li data-type='method'><a href="Wick.Project.html#importFile">importFile</a></li><li data-type='method'><a href="Wick.Project.html#initialize">initialize</a></li><li data-type='method'><a href="Wick.Project.html#inject">inject</a></li><li data-type='method'><a href="Wick.Project.html#insertBlankFrame">insertBlankFrame</a></li><li data-type='method'><a href="Wick.Project.html#isKeyDown">isKeyDown</a></li><li data-type='method'><a href="Wick.Project.html#isKeyJustPressed">isKeyJustPressed</a></li><li data-type='method'><a href="Wick.Project.html#loadAssets">loadAssets</a></li><li data-type='method'><a href="Wick.Project.html#moveSelectedFramesLeft">moveSelectedFramesLeft</a></li><li data-type='method'><a href="Wick.Project.html#moveSelectedFramesRight">moveSelectedFramesRight</a></li><li data-type='method'><a href="Wick.Project.html#moveSelection">moveSelection</a></li><li data-type='method'><a href="Wick.Project.html#mute">mute</a></li><li data-type='method'><a href="Wick.Project.html#objectIsMouseTarget">objectIsMouseTarget</a></li><li data-type='method'><a href="Wick.Project.html#onError">onError</a></li><li data-type='method'><a href="Wick.Project.html#pasteClipboardContents">pasteClipboardContents</a></li><li data-type='method'><a href="Wick.Project.html#play">play</a></li><li data-type='method'><a href="Wick.Project.html#playSound">playSound</a></li><li data-type='method'><a href="Wick.Project.html#playSoundFromAsset">playSoundFromAsset</a></li><li data-type='method'><a href="Wick.Project.html#prepareProjectForEditor">prepareProjectForEditor</a></li><li data-type='method'><a href="Wick.Project.html#recenter">recenter</a></li><li data-type='method'><a href="Wick.Project.html#redo">redo</a></li><li data-type='method'><a href="Wick.Project.html#removeAsset">removeAsset</a></li><li data-type='method'><a href="Wick.Project.html#resetCache">resetCache</a></li><li data-type='method'><a href="Wick.Project.html#resetTools">resetTools</a></li><li data-type='method'><a href="Wick.Project.html#resetZoomAndPan">resetZoomAndPan</a></li><li data-type='method'><a href="Wick.Project.html#runScheduledScripts">runScheduledScripts</a></li><li data-type='method'><a href="Wick.Project.html#scheduleScript">scheduleScript</a></li><li data-type='method'><a href="Wick.Project.html#selectAll">selectAll</a></li><li data-type='method'><a href="Wick.Project.html#shrinkFrames">shrinkFrames</a></li><li data-type='method'><a href="Wick.Project.html#shrinkFramesAndPullOtherFrames">shrinkFramesAndPullOtherFrames</a></li><li data-type='method'><a href="Wick.Project.html#stop">stop</a></li><li data-type='method'><a href="Wick.Project.html#stopAllSounds">stopAllSounds</a></li><li data-type='method'><a href="Wick.Project.html#stopSound">stopSound</a></li><li data-type='method'><a href="Wick.Project.html#tick">tick</a></li><li data-type='method'><a href="Wick.Project.html#tryToAutoCreateTween">tryToAutoCreateTween</a></li><li data-type='method'><a href="Wick.Project.html#undo">undo</a></li><li data-type='method'><a href="Wick.Project.html#unmute">unmute</a></li><li data-type='method'><a href="Wick.Project.html#zoomIn">zoomIn</a></li><li data-type='method'><a href="Wick.Project.html#zoomOut">zoomOut</a></li></ul></li><li><a href="Wick.Selection.html">Selection</a><ul class='methods'><li data-type='method'><a href="Wick.Selection.html#bringToFront">bringToFront</a></li><li data-type='method'><a href="Wick.Selection.html#clear">clear</a></li><li data-type='method'><a href="Wick.Selection.html#deselect">deselect</a></li><li data-type='method'><a href="Wick.Selection.html#deselectMultipleObjects">deselectMultipleObjects</a></li><li data-type='method'><a href="Wick.Selection.html#flipHorizontally">flipHorizontally</a></li><li data-type='method'><a href="Wick.Selection.html#flipVertically">flipVertically</a></li><li data-type='method'><a href="Wick.Selection.html#getLeftmostFrames">getLeftmostFrames</a></li><li data-type='method'><a href="Wick.Selection.html#getRightmostFrames">getRightmostFrames</a></li><li data-type='method'><a href="Wick.Selection.html#getSelectedObject">getSelectedObject</a></li><li data-type='method'><a href="Wick.Selection.html#getSelectedObjects">getSelectedObjects</a></li><li data-type='method'><a href="Wick.Selection.html#getSelectedObjectUUIDs">getSelectedObjectUUIDs</a></li><li data-type='method'><a href="Wick.Selection.html#isObjectSelected">isObjectSelected</a></li><li data-type='method'><a href="Wick.Selection.html#isSelectable">isSelectable</a></li><li data-type='method'><a href="Wick.Selection.html#moveBackwards">moveBackwards</a></li><li data-type='method'><a href="Wick.Selection.html#moveForwards">moveForwards</a></li><li data-type='method'><a href="Wick.Selection.html#select">select</a></li><li data-type='method'><a href="Wick.Selection.html#selectMultipleObjects">selectMultipleObjects</a></li><li data-type='method'><a href="Wick.Selection.html#sendToBack">sendToBack</a></li></ul></li><li><a href="Wick.SVGFile.html">SVGFile</a><ul class='methods'><li data-type='method'><a href="Wick.SVGFile.html#.fromSVGFile">fromSVGFile</a></li><li data-type='method'><a href="Wick.SVGFile.html#.toSVGFile">toSVGFile</a></li></ul></li><li><a href="Wick.Tickable.html">Tickable</a><ul class='methods'><li data-type='method'><a href="Wick.Tickable.html#_runFunction">_runFunction</a></li><li data-type='method'><a href="Wick.Tickable.html#addEventFn">addEventFn</a></li><li data-type='method'><a href="Wick.Tickable.html#addScript">addScript</a></li><li data-type='method'><a href="Wick.Tickable.html#getAvailableScripts">getAvailableScripts</a></li><li data-type='method'><a href="Wick.Tickable.html#getEventFns">getEventFns</a></li><li data-type='method'><a href="Wick.Tickable.html#getScript">getScript</a></li><li data-type='method'><a href="Wick.Tickable.html#hasScript">hasScript</a></li><li data-type='method'><a href="Wick.Tickable.html#onEvent">onEvent</a></li><li data-type='method'><a href="Wick.Tickable.html#removeScript">removeScript</a></li><li data-type='method'><a href="Wick.Tickable.html#runScript">runScript</a></li><li data-type='method'><a href="Wick.Tickable.html#scheduleScript">scheduleScript</a></li><li data-type='method'><a href="Wick.Tickable.html#scriptIsContentful">scriptIsContentful</a></li><li data-type='method'><a href="Wick.Tickable.html#tick">tick</a></li><li data-type='method'><a href="Wick.Tickable.html#updateScript">updateScript</a></li></ul></li><li><a href="Wick.Timeline.html">Timeline</a><ul class='methods'><li data-type='method'><a href="Wick.Timeline.html#addFrame">addFrame</a></li><li data-type='method'><a href="Wick.Timeline.html#addLayer">addLayer</a></li><li data-type='method'><a href="Wick.Timeline.html#addTween">addTween</a></li><li data-type='method'><a href="Wick.Timeline.html#advance">advance</a></li><li data-type='method'><a href="Wick.Timeline.html#deferFrameGapResolve">deferFrameGapResolve</a></li><li data-type='method'><a href="Wick.Timeline.html#forceFrame">forceFrame</a></li><li data-type='method'><a href="Wick.Timeline.html#getAllFrames">getAllFrames</a></li><li data-type='method'><a href="Wick.Timeline.html#getFrameByName">getFrameByName</a></li><li data-type='method'><a href="Wick.Timeline.html#getFramesAtPlayheadPosition">getFramesAtPlayheadPosition</a></li><li data-type='method'><a href="Wick.Timeline.html#getFramesInRange">getFramesInRange</a></li><li data-type='method'><a href="Wick.Timeline.html#gotoAndPlay">gotoAndPlay</a></li><li data-type='method'><a href="Wick.Timeline.html#gotoAndStop">gotoAndStop</a></li><li data-type='method'><a href="Wick.Timeline.html#gotoFrame">gotoFrame</a></li><li data-type='method'><a href="Wick.Timeline.html#gotoNextFrame">gotoNextFrame</a></li><li data-type='method'><a href="Wick.Timeline.html#gotoPrevFrame">gotoPrevFrame</a></li><li data-type='method'><a href="Wick.Timeline.html#makeTimelineInBounds">makeTimelineInBounds</a></li><li data-type='method'><a href="Wick.Timeline.html#moveLayer">moveLayer</a></li><li data-type='method'><a href="Wick.Timeline.html#play">play</a></li><li data-type='method'><a href="Wick.Timeline.html#removeLayer">removeLayer</a></li><li data-type='method'><a href="Wick.Timeline.html#resolveFrameGaps">resolveFrameGaps</a></li><li data-type='method'><a href="Wick.Timeline.html#resolveFrameOverlap">resolveFrameOverlap</a></li><li data-type='method'><a href="Wick.Timeline.html#stop">stop</a></li></ul></li><li><a href="Wick.Tools-Wick.Tools.Brush.html">Brush</a></li><li><a href="Wick.Tools-Wick.Tools.Cursor.html">Cursor</a></li><li><a href="Wick.Tools-Wick.Tools.Ellipse.html">Ellipse</a></li><li><a href="Wick.Tools-Wick.Tools.Eraser.html">Eraser</a></li><li><a href="Wick.Tools-Wick.Tools.Eyedropper.html">Eyedropper</a></li><li><a href="Wick.Tools-Wick.Tools.FillBucket.html">FillBucket</a></li><li><a href="Wick.Tools-Wick.Tools.Interact.html">Interact</a></li><li><a href="Wick.Tools-Wick.Tools.Line.html">Line</a></li><li><a href="Wick.Tools-Wick.Tools.None.html">None</a></li><li><a href="Wick.Tools-Wick.Tools.Pan.html">Pan</a></li><li><a href="Wick.Tools-Wick.Tools.Pencil.html">Pencil</a></li><li><a href="Wick.Tools-Wick.Tools.Rectangle.html">Rectangle</a></li><li><a href="Wick.Tools-Wick.Tools.Text.html">Text</a></li><li><a href="Wick.Tools-Wick.Tools.Zoom.html">Zoom</a></li><li><a href="Wick.Transformation.html">Transformation</a><ul class='methods'><li data-type='method'><a href="Wick.Transformation.html#copy">copy</a></li></ul></li><li><a href="Wick.Tween.html">Tween</a><ul class='methods'><li data-type='method'><a href="Wick.Tween.html#.interpolate">interpolate</a></li><li data-type='method'><a href="Wick.Tween.html#applyTransformsToClip">applyTransformsToClip</a></li><li data-type='method'><a href="Wick.Tween.html#getNextTween">getNextTween</a></li><li data-type='method'><a href="Wick.Tween.html#remove">remove</a></li><li data-type='method'><a href="Wick.Tween.html#restrictToFrameSize">restrictToFrameSize</a></li></ul></li><li><a href="Wick.View-Wick.View.Clip.html">Clip</a></li><li><a href="Wick.View-Wick.View.Frame.html">Frame</a></li><li><a href="Wick.View-Wick.View.Path.html">Path</a></li><li><a href="Wick.View-Wick.View.Selection.html">Selection</a></li><li><a href="Wick.WickFile.html">WickFile</a><ul class='methods'><li data-type='method'><a href="Wick.WickFile.html#.fromWickFile">fromWickFile</a></li><li data-type='method'><a href="Wick.WickFile.html#.generateMetaData">generateMetaData</a></li><li data-type='method'><a href="Wick.WickFile.html#.toWickFile">toWickFile</a></li></ul></li><li><a href="Wick.WickObjectFile.html">WickObjectFile</a><ul class='methods'><li data-type='method'><a href="Wick.WickObjectFile.html#.fromWickObjectFile">fromWickObjectFile</a></li><li data-type='method'><a href="Wick.WickObjectFile.html#.toWickObjectFile">toWickObjectFile</a></li></ul></li><li><a href="Wick.ZIPExport.html">ZIPExport</a></li><li><a href="WickObjectCache.html">WickObjectCache</a><ul class='methods'><li data-type='method'><a href="WickObjectCache.html#addObject">addObject</a></li><li data-type='method'><a href="WickObjectCache.html#clear">clear</a></li><li data-type='method'><a href="WickObjectCache.html#clearObjectToBeAutosaved">clearObjectToBeAutosaved</a></li><li data-type='method'><a href="WickObjectCache.html#getActiveObjects">getActiveObjects</a></li><li data-type='method'><a href="WickObjectCache.html#getAllObjects">getAllObjects</a></li><li data-type='method'><a href="WickObjectCache.html#getObjectByUUID">getObjectByUUID</a></li><li data-type='method'><a href="WickObjectCache.html#getObjectsNeedAutosaved">getObjectsNeedAutosaved</a></li><li data-type='method'><a href="WickObjectCache.html#markObjectToBeAutosaved">markObjectToBeAutosaved</a></li><li data-type='method'><a href="WickObjectCache.html#objectNeedsAutosave">objectNeedsAutosave</a></li><li data-type='method'><a href="WickObjectCache.html#removeObject">removeObject</a></li><li data-type='method'><a href="WickObjectCache.html#removeObjectByUUID">removeObjectByUUID</a></li><li data-type='method'><a href="WickObjectCache.html#removeTemporaryObjects">removeTemporaryObjects</a></li><li data-type='method'><a href="WickObjectCache.html#removeUnusedObjects">removeUnusedObjects</a></li></ul></li><li><a href="Wick-Wick.Asset.html">Asset</a></li><li><a href="Wick-Wick.AudioTrack.html">AudioTrack</a></li><li><a href="Wick-Wick.ClipAsset.html">ClipAsset</a></li><li><a href="Wick-Wick.Color.html">Color</a></li><li><a href="Wick-Wick.FileAsset.html">FileAsset</a></li><li><a href="Wick-Wick.FontAsset.html">FontAsset</a></li><li><a href="Wick-Wick.GIFAsset.html">GIFAsset</a></li><li><a href="Wick-Wick.GUIElement.html">GUIElement</a></li><li><a href="Wick-Wick.ImageAsset.html">ImageAsset</a></li><li><a href="Wick-Wick.SoundAsset.html">SoundAsset</a></li><li><a href="Wick-Wick.SVGAsset.html">SVGAsset</a></li><li><a href="Wick-Wick.Tool.html">Tool</a></li><li><a href="Wick-Wick.ToolSettings.html">ToolSettings</a></li><li><a href="Wick-Wick.View.html">View</a></li></ul><h3>Global</h3><ul><li><a href="global.html#type">type</a></li><li><a href="global.html#Wick">Wick</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">Selection</h1>
+    
 
     
 
@@ -28,71 +47,40 @@
 
 <header>
     
-        <h2><span class="attribs"><span class="type-signature"></span></span>
-            <span class="ancestors"><a href="global.html#Wick">Wick</a>.</span>Selection<span class="signature">()</span><span class="type-signature"></span></h2>
+        <h2>
+            <span class="ancestors"><a href="global.html#Wick">Wick</a>.</span>
         
-            <div class="class-description">Class representing a Wick Selection.</div>
+        
+            Selection
+        
+        </h2>
+        
+            <div class="class-description usertext"><p>Class representing a Wick Selection.</p></div>
         
     
 </header>
 
 <article>
-    <div class="container-overview">
     
+        <div class="container-overview">
         
+            
 
     
     <h2>Constructor</h2>
     
 
-    
     <h4 class="name" id="Selection"><span class="type-signature"></span>new Selection<span class="signature">()</span><span class="type-signature"></span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Create a Wick Selection.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Create a Wick Selection.</p></li></ul></dd>
     
 
     
@@ -107,6 +95,30 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
 
 
@@ -128,18 +140,29 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+        
+        </div>
     
-    </div>
 
     
 
     
 
     
-
+    
     
 
-    
+     
 
     
 
@@ -153,50 +176,11 @@
 
 
 
-<div class="description">
-    The names of all attributes of the selection that can be changed.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">Array.&lt;string></span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The names of all attributes of the selection that can be changed.</p></li></ul></dd>
     
 
     
@@ -211,7 +195,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The names of all attributes of the selection that can be changed.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">Array.&lt;string></span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -225,50 +254,11 @@
 
 
 
-<div class="description">
-    The animation type of a clip.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">string</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The animation type of a clip.</p></li></ul></dd>
     
 
     
@@ -283,7 +273,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The animation type of a clip.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">string</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -297,50 +332,11 @@
 
 
 
-<div class="description">
-    The easing type of a selected tween. See Wick.Tween.VALID_EASING_TYPES.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">string</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The easing type of a selected tween. See Wick.Tween.VALID_EASING_TYPES.</p></li></ul></dd>
     
 
     
@@ -355,7 +351,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The easing type of a selected tween. See Wick.Tween.VALID_EASING_TYPES.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">string</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -369,50 +410,11 @@
 
 
 
-<div class="description">
-    The filename of the selected asset. Read only.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">string</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The filename of the selected asset. Read only.</p></li></ul></dd>
     
 
     
@@ -427,7 +429,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The filename of the selected asset. Read only.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">string</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -441,50 +488,11 @@
 
 
 
-<div class="description">
-    The fill color of the selected object.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">paper.Color</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The fill color of the selected object.</p></li></ul></dd>
     
 
     
@@ -499,7 +507,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The fill color of the selected object.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">paper.Color</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -513,50 +566,11 @@
 
 
 
-<div class="description">
-    The font family of the selected object.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">string</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The font family of the selected object.</p></li></ul></dd>
     
 
     
@@ -571,7 +585,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The font family of the selected object.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">string</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -585,50 +644,11 @@
 
 
 
-<div class="description">
-    The font size of the selected object.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The font size of the selected object.</p></li></ul></dd>
     
 
     
@@ -643,7 +663,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The font size of the selected object.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -657,50 +722,11 @@
 
 
 
-<div class="description">
-    The font style of the selected object. ('italic' or 'oblique')
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">string</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The font style of the selected object. ('italic' or 'oblique')</p></li></ul></dd>
     
 
     
@@ -715,7 +741,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The font style of the selected object. ('italic' or 'oblique')</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">string</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -729,50 +800,11 @@
 
 
 
-<div class="description">
-    The font weight of the selected object.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The font weight of the selected object.</p></li></ul></dd>
     
 
     
@@ -787,7 +819,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The font weight of the selected object.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -801,50 +878,11 @@
 
 
 
-<div class="description">
-    The length of the selected frame.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The length of the selected frame.</p></li></ul></dd>
     
 
     
@@ -859,7 +897,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The length of the selected frame.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -873,50 +956,11 @@
 
 
 
-<div class="description">
-    The amount of rotations to perform during a tween. Positive value = clockwise rotation.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">Number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The amount of rotations to perform during a tween. Positive value = clockwise rotation.</p></li></ul></dd>
     
 
     
@@ -931,7 +975,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The amount of rotations to perform during a tween. Positive value = clockwise rotation.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">Number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -945,50 +1034,11 @@
 
 
 
-<div class="description">
-    The height of the selection.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The height of the selection.</p></li></ul></dd>
     
 
     
@@ -1003,7 +1053,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The height of the selection.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1017,50 +1112,11 @@
 
 
 
-<div class="description">
-    The identifier of the selected object.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">string</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The identifier of the selected object.</p></li></ul></dd>
     
 
     
@@ -1075,7 +1131,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The identifier of the selected object.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">string</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1089,50 +1190,11 @@
 
 
 
-<div class="description">
-    True if the selection is scriptable. Read only.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">boolean</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>True if the selection is scriptable. Read only.</p></li></ul></dd>
     
 
     
@@ -1147,7 +1209,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>True if the selection is scriptable. Read only.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">boolean</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1161,40 +1268,11 @@
 
 
 
-<div class="description">
-    Determines if a clip is synced to the timeline.
-</div>
-
-
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Determines if a clip is synced to the timeline.</p></li></ul></dd>
     
 
     
@@ -1209,7 +1287,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Determines if a clip is synced to the timeline.</p>
+</div>
+
+
 
 
 
@@ -1223,50 +1335,11 @@
 
 
 
-<div class="description">
-    The location of the objects in the selection. (see LOCATION_NAMES)
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">string</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The location of the objects in the selection. (see LOCATION_NAMES)</p></li></ul></dd>
     
 
     
@@ -1281,7 +1354,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The location of the objects in the selection. (see LOCATION_NAMES)</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">string</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1295,50 +1413,11 @@
 
 
 
-<div class="description">
-    The name of the selected object.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">string</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The name of the selected object.</p></li></ul></dd>
     
 
     
@@ -1353,7 +1432,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The name of the selected object.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">string</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1367,50 +1491,11 @@
 
 
 
-<div class="description">
-    The number of objects in the selection.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The number of objects in the selection.</p></li></ul></dd>
     
 
     
@@ -1425,7 +1510,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The number of objects in the selection.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1439,50 +1569,11 @@
 
 
 
-<div class="description">
-    The opacity of the selected object.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The opacity of the selected object.</p></li></ul></dd>
     
 
     
@@ -1497,7 +1588,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The opacity of the selected object.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1511,50 +1647,11 @@
 
 
 
-<div class="description">
-    It is the original height of the selection at creation.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>It is the original height of the selection at creation.</p></li></ul></dd>
     
 
     
@@ -1569,7 +1666,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>It is the original height of the selection at creation.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1583,50 +1725,11 @@
 
 
 
-<div class="description">
-    It is the original width of the selection at creation.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>It is the original width of the selection at creation.</p></li></ul></dd>
     
 
     
@@ -1641,7 +1744,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>It is the original width of the selection at creation.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1655,50 +1803,11 @@
 
 
 
-<div class="description">
-    The origin position the selection.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The origin position the selection.</p></li></ul></dd>
     
 
     
@@ -1713,7 +1822,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The origin position the selection.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1727,50 +1881,11 @@
 
 
 
-<div class="description">
-    The origin position the selection.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The origin position the selection.</p></li></ul></dd>
     
 
     
@@ -1785,7 +1900,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The origin position the selection.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1799,50 +1959,11 @@
 
 
 
-<div class="description">
-    The point that transformations to the selection will be based around.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">object</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The point that transformations to the selection will be based around.</p></li></ul></dd>
     
 
     
@@ -1857,7 +1978,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The point that transformations to the selection will be based around.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">object</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1871,50 +2037,11 @@
 
 
 
-<div class="description">
-    The rotation of the selection.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The rotation of the selection.</p></li></ul></dd>
     
 
     
@@ -1929,7 +2056,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The rotation of the selection.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -1943,50 +2115,11 @@
 
 
 
-<div class="description">
-    The scale of the selection on the X axis.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The scale of the selection on the X axis.</p></li></ul></dd>
     
 
     
@@ -2001,7 +2134,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The scale of the selection on the X axis.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2015,50 +2193,11 @@
 
 
 
-<div class="description">
-    The scale of the selection on the Y axis.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The scale of the selection on the Y axis.</p></li></ul></dd>
     
 
     
@@ -2073,7 +2212,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The scale of the selection on the Y axis.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2087,50 +2271,11 @@
 
 
 
-<div class="description">
-    A single string describing the contents of the selection.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">string</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>A single string describing the contents of the selection.</p></li></ul></dd>
     
 
     
@@ -2145,7 +2290,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>A single string describing the contents of the selection.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">string</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2159,40 +2349,11 @@
 
 
 
-<div class="description">
-    If a clip is set to singleFrame, this number will be used to determine that frame.
-</div>
-
-
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>If a clip is set to singleFrame, this number will be used to determine that frame.</p></li></ul></dd>
     
 
     
@@ -2207,7 +2368,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>If a clip is set to singleFrame, this number will be used to determine that frame.</p>
+</div>
+
+
 
 
 
@@ -2221,50 +2416,11 @@
 
 
 
-<div class="description">
-    The sound attached to the selected frame.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type"><a href="Wick.SoundAsset.html">Wick.SoundAsset</a></span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The sound attached to the selected frame.</p></li></ul></dd>
     
 
     
@@ -2279,7 +2435,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The sound attached to the selected frame.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type"><a href="Wick.SoundAsset.html">Wick.SoundAsset</a></span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2293,50 +2494,11 @@
 
 
 
-<div class="description">
-    The starting position of the sound on the frame in ms.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The starting position of the sound on the frame in ms.</p></li></ul></dd>
     
 
     
@@ -2351,7 +2513,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The starting position of the sound on the frame in ms.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2365,50 +2572,11 @@
 
 
 
-<div class="description">
-    The volume of the sound attached to the selected frame.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The volume of the sound attached to the selected frame.</p></li></ul></dd>
     
 
     
@@ -2423,7 +2591,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The volume of the sound attached to the selected frame.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2437,50 +2650,11 @@
 
 
 
-<div class="description">
-    The source (dataURL) of the selected ImageAsset or SoundAsset. Read only.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">string</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The source (dataURL) of the selected ImageAsset or SoundAsset. Read only.</p></li></ul></dd>
     
 
     
@@ -2495,7 +2669,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The source (dataURL) of the selected ImageAsset or SoundAsset. Read only.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">string</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2509,50 +2728,11 @@
 
 
 
-<div class="description">
-    The stroke color of the selected object.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">paper.Color</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The stroke color of the selected object.</p></li></ul></dd>
     
 
     
@@ -2567,7 +2747,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The stroke color of the selected object.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">paper.Color</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2581,50 +2806,11 @@
 
 
 
-<div class="description">
-    The stroke width of the selected object.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The stroke width of the selected object.</p></li></ul></dd>
     
 
     
@@ -2639,7 +2825,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The stroke width of the selected object.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2653,50 +2884,11 @@
 
 
 
-<div class="description">
-    The types of the objects in the selection. (see SELECTABLE_OBJECT_TYPES)
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">Array.&lt;string></span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The types of the objects in the selection. (see SELECTABLE_OBJECT_TYPES)</p></li></ul></dd>
     
 
     
@@ -2711,7 +2903,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The types of the objects in the selection. (see SELECTABLE_OBJECT_TYPES)</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">Array.&lt;string></span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2725,50 +2962,11 @@
 
 
 
-<div class="description">
-    The rotation of the selection (used for canvas selections)
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The rotation of the selection (used for canvas selections)</p></li></ul></dd>
     
 
     
@@ -2783,7 +2981,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The rotation of the selection (used for canvas selections)</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2797,50 +3040,11 @@
 
 
 
-<div class="description">
-    The width of the selection.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The width of the selection.</p></li></ul></dd>
     
 
     
@@ -2855,7 +3059,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The width of the selection.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2869,50 +3118,11 @@
 
 
 
-<div class="description">
-    The position of the selection.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The position of the selection.</p></li></ul></dd>
     
 
     
@@ -2927,7 +3137,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The position of the selection.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -2941,50 +3196,11 @@
 
 
 
-<div class="description">
-    The position of the selection.
-</div>
-
-
-
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">number</span>
-
-
-        </li>
-    </ul>
-
-
-
-
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>The position of the selection.</p></li></ul></dd>
     
 
     
@@ -2999,7 +3215,52 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>The position of the selection.</p>
+</div>
+
+
+
+    <h5 class="h5-types">Type:</h5>
+    <ul>
+        <li>
+            
+<span class="param-type">number</span>
+
+
+
+        </li>
+    </ul>
 
 
 
@@ -3017,54 +3278,17 @@
 
     
 
-    
     <h4 class="name" id="bringToFront"><span class="type-signature"></span>bringToFront<span class="signature">()</span><span class="type-signature"></span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Brings the selected objects to the front.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Brings the selected objects to the front.</p></li></ul></dd>
     
 
     
@@ -3072,6 +3296,30 @@
     <dd class="tag-source"><ul class="dummy"><li>
         <a href="base_Selection.js.html">base/Selection.js</a>, <a href="base_Selection.js.html#line675">line 675</a>
     </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
     
 
     
@@ -3100,22 +3348,71 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
         
             
 
     
 
-    
     <h4 class="name" id="clear"><span class="type-signature"></span>clear<span class="signature">(filter)</span><span class="type-signature"></span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Remove all objects from the selection with an optional filter.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Remove all objects from the selection with an optional filter.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Selection.js.html">base/Selection.js</a>, <a href="base_Selection.js.html#line228">line 228</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -3125,7 +3422,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -3159,6 +3460,7 @@
 <span class="param-type">string</span>
 
 
+
             
             </td>
 
@@ -3166,58 +3468,12 @@
 
             
 
-            <td class="description last">A location or a type (see SELECTABLE_OBJECT_TYPES and LOCATION_NAMES)</td>
+            <td class="description last"><p>A location or a type (see SELECTABLE_OBJECT_TYPES and LOCATION_NAMES)</p></td>
         </tr>
 
     
     </tbody>
 </table>
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Selection.js.html">base/Selection.js</a>, <a href="base_Selection.js.html#line228">line 228</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
 
 
 
@@ -3242,17 +3498,56 @@
 
     
 
-    
     <h4 class="name" id="deselect"><span class="type-signature"></span>deselect<span class="signature">(object)</span><span class="type-signature"></span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Remove a wick object from the selection.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Remove a wick object from the selection.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Selection.js.html">base/Selection.js</a>, <a href="base_Selection.js.html#line198">line 198</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -3262,7 +3557,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -3296,6 +3595,7 @@
 <span class="param-type"><a href="Wick.Base.html">Wick.Base</a></span>
 
 
+
             
             </td>
 
@@ -3303,58 +3603,12 @@
 
             
 
-            <td class="description last">The object to deselect.</td>
+            <td class="description last"><p>The object to deselect.</p></td>
         </tr>
 
     
     </tbody>
 </table>
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Selection.js.html">base/Selection.js</a>, <a href="base_Selection.js.html#line198">line 198</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
 
 
 
@@ -3379,17 +3633,56 @@
 
     
 
-    
     <h4 class="name" id="deselectMultipleObjects"><span class="type-signature"></span>deselectMultipleObjects<span class="signature">(objects)</span><span class="type-signature"></span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Remove multiple objects from the selection. Does nothing if an object is not selected.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Remove multiple objects from the selection. Does nothing if an object is not selected.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Selection.js.html">base/Selection.js</a>, <a href="base_Selection.js.html#line213">line 213</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -3399,7 +3692,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -3433,6 +3730,7 @@
 <span class="param-type">Array.&lt;object></span>
 
 
+
             
             </td>
 
@@ -3440,58 +3738,12 @@
 
             
 
-            <td class="description last">objects to remove from the selection.</td>
+            <td class="description last"><p>objects to remove from the selection.</p></td>
         </tr>
 
     
     </tbody>
 </table>
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Selection.js.html">base/Selection.js</a>, <a href="base_Selection.js.html#line213">line 213</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
 
 
 
@@ -3516,54 +3768,17 @@
 
     
 
-    
     <h4 class="name" id="flipHorizontally"><span class="type-signature"></span>flipHorizontally<span class="signature">()</span><span class="type-signature"></span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Flips the selected obejcts horizontally.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Flips the selected obejcts horizontally.</p></li></ul></dd>
     
 
     
@@ -3578,7 +3793,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3604,54 +3853,17 @@
 
     
 
-    
     <h4 class="name" id="flipVertically"><span class="type-signature"></span>flipVertically<span class="signature">()</span><span class="type-signature"></span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Flips the selected obejcts vertically.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Flips the selected obejcts vertically.</p></li></ul></dd>
     
 
     
@@ -3666,7 +3878,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3692,54 +3938,17 @@
 
     
 
-    
     <h4 class="name" id="getLeftmostFrames"><span class="type-signature"></span>getLeftmostFrames<span class="signature">()</span><span class="type-signature"> &rarr; {Array.&lt;<a href="Wick.Frame.html">Wick.Frame</a>>}</span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Get a list of only the farthest left frames on each layer.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Get a list of only the farthest left frames on each layer.</p></li></ul></dd>
     
 
     
@@ -3754,6 +3963,30 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
 
 
@@ -3770,18 +4003,31 @@
 
 
 
-<h5>Returns:</h5>
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
 
         
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type">Array.&lt;<a href="Wick.Frame.html">Wick.Frame</a>></span>
+
 
 
     </dd>
@@ -3791,61 +4037,22 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="getRightmostFrames"><span class="type-signature"></span>getRightmostFrames<span class="signature">()</span><span class="type-signature"> &rarr; {Array.&lt;<a href="Wick.Frame.html">Wick.Frame</a>>}</span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Get a list of only the farthest right frames on each layer.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Get a list of only the farthest right frames on each layer.</p></li></ul></dd>
     
 
     
@@ -3860,6 +4067,30 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
 
 
@@ -3876,18 +4107,31 @@
 
 
 
-<h5>Returns:</h5>
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
 
         
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type">Array.&lt;<a href="Wick.Frame.html">Wick.Frame</a>></span>
+
 
 
     </dd>
@@ -3897,61 +4141,22 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="getSelectedObject"><span class="type-signature"></span>getSelectedObject<span class="signature">()</span><span class="type-signature"> &rarr; {<a href="Wick.Base.html">Wick.Base</a>}</span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Get the first object in the selection if there is a single object in the selection.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Get the first object in the selection if there is a single object in the selection.</p></li></ul></dd>
     
 
     
@@ -3966,6 +4171,30 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
 
 
@@ -3982,22 +4211,35 @@
 
 
 
-<h5>Returns:</h5>
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
 
         
 <div class="param-desc">
-    The first object in the selection.
+    <p>The first object in the selection.</p>
 </div>
 
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type"><a href="Wick.Base.html">Wick.Base</a></span>
+
 
 
     </dd>
@@ -4007,110 +4249,22 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="getSelectedObjects"><span class="type-signature"></span>getSelectedObjects<span class="signature">(filter)</span><span class="type-signature"> &rarr; {Array.&lt;<a href="Wick.Base.html">Wick.Base</a>>}</span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Get the objects in the selection with an optional filter.
-</div>
-
-
-
-
-
-
-
-
-
-    <h5>Parameters:</h5>
-    
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>filter</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">string</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">A location or a type (see SELECTABLE_OBJECT_TYPES and LOCATION_NAMES)</td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Get the objects in the selection with an optional filter.</p></li></ul></dd>
     
 
     
@@ -4125,6 +4279,30 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
 
 
@@ -4139,61 +4317,7 @@
 
 
 
-
-
-<h5>Returns:</h5>
-
-        
-<div class="param-desc">
-    The selected objects.
-</div>
-
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type">Array.&lt;<a href="Wick.Base.html">Wick.Base</a>></span>
-
-
-    </dd>
-</dl>
-
-    
-
-
-
-
-
-        
-            
-
-    
-
-    
-    <h4 class="name" id="getSelectedObjectUUIDs"><span class="type-signature"></span>getSelectedObjectUUIDs<span class="signature">(filter)</span><span class="type-signature"> &rarr; {Array.&lt;string>}</span></h4>
-    
-
-    
-
-
-
-<div class="description">
-    Get the UUIDs of the objects in the selection with an optional filter.
-</div>
-
-
-
-
-
-
-
-
-
-    <h5>Parameters:</h5>
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -4227,6 +4351,7 @@
 <span class="param-type">string</span>
 
 
+
             
             </td>
 
@@ -4234,7 +4359,7 @@
 
             
 
-            <td class="description last">A location or a type (see SELECTABLE_OBJECT_TYPES and LOCATION_NAMES)</td>
+            <td class="description last"><p>A location or a type (see SELECTABLE_OBJECT_TYPES and LOCATION_NAMES)</p></td>
         </tr>
 
     
@@ -4246,30 +4371,58 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>The selected objects.</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Array.&lt;<a href="Wick.Base.html">Wick.Base</a>></span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="getSelectedObjectUUIDs"><span class="type-signature"></span>getSelectedObjectUUIDs<span class="signature">(filter)</span><span class="type-signature"> &rarr; {Array.&lt;string>}</span></h4>
+
+    
+
+
+
+
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Get the UUIDs of the objects in the selection with an optional filter.</p></li></ul></dd>
     
 
     
@@ -4284,6 +4437,30 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
 
 
@@ -4298,24 +4475,87 @@
 
 
 
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>filter</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
 
 
-<h5>Returns:</h5>
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>A location or a type (see SELECTABLE_OBJECT_TYPES and LOCATION_NAMES)</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
 
         
 <div class="param-desc">
-    The UUIDs of the selected objects.
+    <p>The UUIDs of the selected objects.</p>
 </div>
 
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type">Array.&lt;string></span>
+
 
 
     </dd>
@@ -4325,24 +4565,61 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="isObjectSelected"><span class="type-signature"></span>isObjectSelected<span class="signature">(object)</span><span class="type-signature"></span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Checks if a given object is selected.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Checks if a given object is selected.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Selection.js.html">base/Selection.js</a>, <a href="base_Selection.js.html#line242">line 242</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -4352,7 +4629,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -4386,6 +4667,7 @@
 <span class="param-type"><a href="Wick.Base.html">Wick.Base</a></span>
 
 
+
             
             </td>
 
@@ -4393,58 +4675,12 @@
 
             
 
-            <td class="description last">The object to check selection of.</td>
+            <td class="description last"><p>The object to check selection of.</p></td>
         </tr>
 
     
     </tbody>
 </table>
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Selection.js.html">base/Selection.js</a>, <a href="base_Selection.js.html#line242">line 242</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
 
 
 
@@ -4469,17 +4705,56 @@
 
     
 
-    
     <h4 class="name" id="isSelectable"><span class="type-signature"></span>isSelectable<span class="signature">(object)</span><span class="type-signature"> &rarr; {boolean}</span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Returns true if an object is selectable.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Returns true if an object is selectable.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Selection.js.html">base/Selection.js</a>, <a href="base_Selection.js.html#line119">line 119</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -4489,7 +4764,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -4523,6 +4802,7 @@
 <span class="param-type">object</span>
 
 
+
             
             </td>
 
@@ -4530,7 +4810,7 @@
 
             
 
-            <td class="description last">object to check if selectable</td>
+            <td class="description last"><p>object to check if selectable</p></td>
         </tr>
 
     
@@ -4542,45 +4822,6 @@
 
 
 
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Selection.js.html">base/Selection.js</a>, <a href="base_Selection.js.html#line119">line 119</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
 
 
 
@@ -4591,27 +4832,23 @@
 
 
 
-
-
-
-
-
-<h5>Returns:</h5>
+<h5 class="h5-returns">Returns:</h5>
 
         
 <div class="param-desc">
-    true if selectable, false otherwise.
+    <p>true if selectable, false otherwise.</p>
 </div>
 
 
 
-<dl>
+<dl class="param-type">
     <dt>
         Type
     </dt>
     <dd>
         
 <span class="param-type">boolean</span>
+
 
 
     </dd>
@@ -4621,61 +4858,22 @@
 
 
 
-
-
         
             
 
     
 
-    
     <h4 class="name" id="moveBackwards"><span class="type-signature"></span>moveBackwards<span class="signature">()</span><span class="type-signature"></span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Moves the selected objects backwards.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Moves the selected objects backwards.</p></li></ul></dd>
     
 
     
@@ -4690,7 +4888,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4716,54 +4948,17 @@
 
     
 
-    
     <h4 class="name" id="moveForwards"><span class="type-signature"></span>moveForwards<span class="signature">()</span><span class="type-signature"></span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Moves the selected objects forwards.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Moves the selected objects forwards.</p></li></ul></dd>
     
 
     
@@ -4778,7 +4973,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4804,17 +5033,57 @@
 
     
 
-    
     <h4 class="name" id="select"><span class="type-signature"></span>select<span class="signature">(object)</span><span class="type-signature"></span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Add a wick object to the selection. If selecting multiple objects, you should useselection.selectMultipleObjects.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Add a wick object to the selection. If selecting multiple objects, you should use
+selection.selectMultipleObjects.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Selection.js.html">base/Selection.js</a>, <a href="base_Selection.js.html#line128">line 128</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -4824,7 +5093,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -4858,6 +5131,7 @@
 <span class="param-type"><a href="Wick.Base.html">Wick.Base</a></span>
 
 
+
             
             </td>
 
@@ -4865,58 +5139,12 @@
 
             
 
-            <td class="description last">The object to select.</td>
+            <td class="description last"><p>The object to select.</p></td>
         </tr>
 
     
     </tbody>
 </table>
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Selection.js.html">base/Selection.js</a>, <a href="base_Selection.js.html#line128">line 128</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
 
 
 
@@ -4941,17 +5169,57 @@
 
     
 
-    
     <h4 class="name" id="selectMultipleObjects"><span class="type-signature"></span>selectMultipleObjects<span class="signature">(objects)</span><span class="type-signature"></span></h4>
-    
 
     
 
 
 
-<div class="description">
-    Select multiple objects. Must be selectable objects. Significantly faster than selecting multiple elementswith a select() independently.
-</div>
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Select multiple objects. Must be selectable objects. Significantly faster than selecting multiple elements
+with a select() independently.</p></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="base_Selection.js.html">base/Selection.js</a>, <a href="base_Selection.js.html#line171">line 171</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
 
 
 
@@ -4961,7 +5229,11 @@
 
 
 
-    <h5>Parameters:</h5>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
     
 
 <table class="params">
@@ -4993,6 +5265,7 @@
             
                 
 <span class="param-type">Array.&lt;object></span>
+
 
 
             
@@ -5014,52 +5287,6 @@
 
 
 
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="base_Selection.js.html">base/Selection.js</a>, <a href="base_Selection.js.html#line171">line 171</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
 
 
 
@@ -5078,54 +5305,17 @@
 
     
 
-    
     <h4 class="name" id="sendToBack"><span class="type-signature"></span>sendToBack<span class="signature">()</span><span class="type-signature"></span></h4>
-    
 
     
-
-
-
-<div class="description">
-    Sends the selected objects to the back.
-</div>
-
-
-
-
-
-
-
-
-
 
 
 
 
 <dl class="details">
-
     
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><p>Sends the selected objects to the back.</p></li></ul></dd>
     
 
     
@@ -5140,7 +5330,41 @@
     
 
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 </dl>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5174,19 +5398,21 @@
 
 
 
+    
+    
 </div>
-
-<nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="BuiltinAssets.html">BuiltinAssets</a></li><li><a href="GlobalAPI.html">GlobalAPI</a></li><li><a href="paper.SelectionGUI.html">SelectionGUI</a></li><li><a href="paper-paper.Selection.html">Selection</a></li><li><a href="SelectionWidget.html">SelectionWidget</a></li><li><a href="Wick.AutoSave.html">AutoSave</a></li><li><a href="Wick.Base.html">Base</a></li><li><a href="Wick.Button.html">Button</a></li><li><a href="Wick.Clip.html">Clip</a></li><li><a href="Wick.Clipboard.html">Clipboard</a></li><li><a href="Wick.FileCache.html">FileCache</a></li><li><a href="Wick.Frame.html">Frame</a></li><li><a href="Wick.GUIElement.Project.html">Project</a></li><li><a href="Wick.GUIElement.Timeline.html">Timeline</a></li><li><a href="Wick.GUIElement-Wick.GUIElement.Breadcrumbs.html">Breadcrumbs</a></li><li><a href="Wick.GUIElement-Wick.GUIElement.Button.html">Button</a></li><li><a href="Wick.History.html">History</a></li><li><a href="Wick.HTMLExport.html">HTMLExport</a></li><li><a href="Wick.HTMLPreview.html">HTMLPreview</a></li><li><a href="Wick.ImageSequence.html">ImageSequence</a></li><li><a href="Wick.Layer.html">Layer</a></li><li><a href="Wick.Path.html">Path</a></li><li><a href="Wick.Project.html">Project</a></li><li><a href="Wick.Selection.html">Selection</a></li><li><a href="Wick.SVGFile.html">SVGFile</a></li><li><a href="Wick.Tickable.html">Tickable</a></li><li><a href="Wick.Timeline.html">Timeline</a></li><li><a href="Wick.Tools-Wick.Tools.Brush.html">Brush</a></li><li><a href="Wick.Tools-Wick.Tools.Cursor.html">Cursor</a></li><li><a href="Wick.Tools-Wick.Tools.Ellipse.html">Ellipse</a></li><li><a href="Wick.Tools-Wick.Tools.Eraser.html">Eraser</a></li><li><a href="Wick.Tools-Wick.Tools.Eyedropper.html">Eyedropper</a></li><li><a href="Wick.Tools-Wick.Tools.FillBucket.html">FillBucket</a></li><li><a href="Wick.Tools-Wick.Tools.Interact.html">Interact</a></li><li><a href="Wick.Tools-Wick.Tools.Line.html">Line</a></li><li><a href="Wick.Tools-Wick.Tools.None.html">None</a></li><li><a href="Wick.Tools-Wick.Tools.Pan.html">Pan</a></li><li><a href="Wick.Tools-Wick.Tools.Pencil.html">Pencil</a></li><li><a href="Wick.Tools-Wick.Tools.Rectangle.html">Rectangle</a></li><li><a href="Wick.Tools-Wick.Tools.Text.html">Text</a></li><li><a href="Wick.Tools-Wick.Tools.Zoom.html">Zoom</a></li><li><a href="Wick.Transformation.html">Transformation</a></li><li><a href="Wick.Tween.html">Tween</a></li><li><a href="Wick.View-Wick.View.Clip.html">Clip</a></li><li><a href="Wick.View-Wick.View.Frame.html">Frame</a></li><li><a href="Wick.View-Wick.View.Path.html">Path</a></li><li><a href="Wick.View-Wick.View.Selection.html">Selection</a></li><li><a href="Wick.WickFile.html">WickFile</a></li><li><a href="Wick.WickObjectFile.html">WickObjectFile</a></li><li><a href="Wick.ZIPExport.html">ZIPExport</a></li><li><a href="WickObjectCache.html">WickObjectCache</a></li><li><a href="Wick-Wick.Asset.html">Asset</a></li><li><a href="Wick-Wick.AudioTrack.html">AudioTrack</a></li><li><a href="Wick-Wick.ClipAsset.html">ClipAsset</a></li><li><a href="Wick-Wick.Color.html">Color</a></li><li><a href="Wick-Wick.FileAsset.html">FileAsset</a></li><li><a href="Wick-Wick.FontAsset.html">FontAsset</a></li><li><a href="Wick-Wick.GIFAsset.html">GIFAsset</a></li><li><a href="Wick-Wick.GUIElement.html">GUIElement</a></li><li><a href="Wick-Wick.ImageAsset.html">ImageAsset</a></li><li><a href="Wick-Wick.SoundAsset.html">SoundAsset</a></li><li><a href="Wick-Wick.SVGAsset.html">SVGAsset</a></li><li><a href="Wick-Wick.Tool.html">Tool</a></li><li><a href="Wick-Wick.ToolSettings.html">ToolSettings</a></li><li><a href="Wick-Wick.View.html">View</a></li></ul><h3>Global</h3><ul><li><a href="global.html#type">type</a></li><li><a href="global.html#Wick">Wick</a></li></ul>
-</nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.11</a> on Sat Mar 01 2025 20:03:29 GMT-0300 (Brasilia Standard Time)
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.11</a> on Sat Mar 01 2025 20:10:09 GMT-0300 (Brasilia Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
 </footer>
 
-<script> prettyPrint(); </script>
-<script src="scripts/linenumber.js"> </script>
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
 </body>
 </html>
